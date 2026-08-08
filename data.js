@@ -9,7 +9,7 @@ const portfolioData = {
     name: "Naveen Kumar G",
     title: "Aspiring Data Analyst",
     tagline: "Turning raw data into actionable business insights through Python, SQL & Power BI",
-    location: "Salem, Tamil Nadu, India",
+    location: "Bengaluru, Karnataka, India",
     email: "naveen0109.exe@gmail.com",
     phone: "+91 7871876756",
     linkedin: "https://linkedin.com/in/naveen-kumar-g",
@@ -161,9 +161,9 @@ const portfolioData = {
 
   // --- Languages ---
   languages: [
-    { name: "English", level: "Fluent" },
-    { name: "Tamil", level: "Native" },
-    { name: "Telugu", level: "Conversational" }
+    { name: "English" },
+    { name: "Tamil" },
+    { name: "Telugu" }
   ],
 
   // --- Navigation Links ---

@@ -238,7 +238,6 @@ document.addEventListener('DOMContentLoaded', () => {
     langGrid.innerHTML = data.languages.map(lang => `
       <div class="language-card fade-in">
         <div class="language-name">${lang.name}</div>
-        <div class="language-level">${lang.level}</div>
       </div>
     `).join('');
   }
