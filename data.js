@@ -15,6 +15,7 @@ const portfolioData = {
     linkedin: "https://linkedin.com/in/naveen-kumar-g",
     github: "https://github.com/nk618",
     resumeLink: "CV_Naveen_Kumar.pdf",
+    interactiveResume: "Naveen_Kumar_G_Interactive_Resume.html",
   },
 
   // --- About Me ---
@@ -147,6 +148,14 @@ const portfolioData = {
       tags: ["Power BI", "SQL", "Excel"],
       githubLink: "#",
       demoLink: "",
+      image: ""
+    },
+    {
+      title: "Interactive Web Resume",
+      description: "A dark-themed interactive resume highlighting key performance indicators, skills breakdown, experience timeline, and project portfolio with fluid responsive UI.",
+      tags: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+      githubLink: "https://github.com/nk618/portfolio/blob/main/Naveen_Kumar_G_Interactive_Resume.html",
+      demoLink: "Naveen_Kumar_G_Interactive_Resume.html",
       image: ""
     },
     {
