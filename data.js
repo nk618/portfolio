@@ -139,7 +139,7 @@ const portfolioData = {
       tags: ["HTML", "JavaScript", "Chart.js", "Data Visualization"],
       githubLink: "https://github.com/nk618/portfolio/blob/main/world_happiness_dashboard.html",
       demoLink: "world_happiness_dashboard.html",
-      image: ""
+      image: "assets/project1.png"
     },
     {
       title: "Sales Data Dashboard",
