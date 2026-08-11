@@ -14,7 +14,7 @@ const portfolioData = {
     phone: "+91 7871876756",
     linkedin: "https://linkedin.com/in/naveen-kumar-g",
     github: "https://github.com/nk618",
-    resumeLink: "Naveen_Kumar_G_Resume%20new.pdf",
+    resumeLink: "Naveen_Kumar_G_Resume_new.pdf",
     interactiveResume: "Naveen_Kumar_G_Interactive_Resume.html",
   },
 
