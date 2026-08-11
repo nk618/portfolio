@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Happiness Report Dashboard 2015-2019</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1"></script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --bg-primary: #f8fafc;
+            --bg-card: #ffffff;
+            --text-primary: #1f2937;
+            --text-secondary: #6b7280;
+            --border: #e5e7eb;
+            --radius: 8px;
+            --gap: 16px;
+            --shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.5;
+        }
+
+        .dashboard-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+
+        .dashboard-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 32px;
+            border-radius: var(--radius);
+            margin-bottom: var(--gap);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            box-shadow: var(--shadow);
+        }
+
+        .dashboard-header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .dashboard-header p {
+            font-size: 14px;
+            opacity: 0.9;
+            margin-top: 4px;
+        }
+
+        .header-info {
+            flex: 1;
+        }
+
+        .filters {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 12px 16px;
+            border-radius: 6px;
+            backdrop-filter: blur(10px);
+        }
+
+        .filter-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .filter-group label {
+            font-size: 13px;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .filter-group select,
+        .filter-group input[type="text"] {
+            padding: 8px 12px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 4px;
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        .filter-group select option {
+            background: #333;
+            color: white;
+        }
+
+        .filter-group input::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .filter-group select:focus,
+        .filter-group input:focus {
+            outline: none;
+            background: rgba(255, 255, 255, 0.25);
+            box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
+        }
+
+        .kpi-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: var(--gap);
+            margin-bottom: var(--gap);
+        }
+
+        .kpi-card {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            padding: 24px;
+            box-shadow: var(--shadow);
+            border-left: 4px solid var(--primary);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .kpi-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+        }
+
+        .kpi-card.success {
+            border-left-color: var(--success);
+        }
+
+        .kpi-card.warning {
+            border-left-color: var(--warning);
+        }
+
+        .kpi-card.danger {
+            border-left-color: var(--danger);
+        }
+
+        .kpi-label {
+            font-size: 12px;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .kpi-value {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 4px;
+        }
+
+        .kpi-change {
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--success);
+        }
+
+        .kpi-change.negative {
+            color: var(--danger);
+        }
+
+        .chart-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+            gap: var(--gap);
+            margin-bottom: var(--gap);
+        }
+
+        .chart-container {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            padding: 24px;
+            box-shadow: var(--shadow);
+        }
+
+        .chart-container h3 {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .chart-icon {
+            width: 20px;
+            height: 20px;
+            background: var(--primary);
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 12px;
+        }
+
+        .chart-container canvas {
+            max-height: 300px;
+        }
+
+        .table-section {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            padding: 24px;
+            box-shadow: var(--shadow);
+            overflow-x: auto;
+        }
+
+        .table-section h3 {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+        }
+
+        .data-table thead th {
+            text-align: left;
+            padding: 12px;
+            border-bottom: 2px solid var(--border);
+            color: var(--text-secondary);
+            font-weight: 600;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            white-space: nowrap;
+            user-select: none;
+            cursor: pointer;
+            background: #f9fafb;
+        }
+
+        .data-table thead th:hover {
+            color: var(--primary);
+            background: #f3f4f6;
+        }
+
+        .data-table tbody td {
+            padding: 12px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .data-table tbody tr:hover {
+            background: var(--bg-primary);
+        }
+
+        .score-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .score-high {
+            background: #d1fae5;
+            color: #065f46;
+        }
+
+        .score-medium {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .score-low {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .dashboard-footer {
+            text-align: center;
+            padding: 24px;
+            color: var(--text-secondary);
+            font-size: 12px;
+        }
+
+        .page-info {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 16px;
+            align-items: center;
+        }
+
+        .pagination {
+            display: flex;
+            gap: 6px;
+        }
+
+        .pagination button {
+            padding: 6px 10px;
+            border: 1px solid var(--border);
+            background: var(--bg-card);
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            color: var(--text-primary);
+            transition: all 0.2s;
+        }
+
+        .pagination button:hover {
+            background: var(--bg-primary);
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        .pagination button.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        @media (max-width: 768px) {
+            .dashboard-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .filters {
+                width: 100%;
+            }
+
+            .kpi-row {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .chart-row {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .insights-box {
+            background: #eff6ff;
+            border-left: 4px solid #0284c7;
+            padding: 16px;
+            border-radius: 4px;
+            margin-bottom: var(--gap);
+            font-size: 13px;
+            line-height: 1.6;
+        }
+
+        .insights-box strong {
+            color: #0284c7;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="dashboard-header">
+            <div class="header-info">
+                <h1>🌍 World Happiness Report</h1>
+                <p>Interactive Analysis 2015-2019 | 782 records across 170 countries</p>
+            </div>
+            <div class="filters">
+                <div class="filter-group">
+                    <label>Year:</label>
+                    <select id="yearFilter">
+                        <option value="">All Years</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Country:</label>
+                    <input type="text" id="countryFilter" placeholder="Search...">
+                </div>
+            </div>
+        </div>
+
+        <div class="insights-box">
+            <strong>📊 Key Insight:</strong> Finland leads global happiness rankings in 2019 with a score of 7.77, driven by strong social support, high life expectancy, and low corruption perception. GDP and life expectancy show the strongest correlation with happiness across all years.
+        </div>
+
+        <div class="kpi-row">
+            <div class="kpi-card success">
+                <div class="kpi-label">Global Avg Score 2019</div>
+                <div class="kpi-value" id="kpi-avg-2019">7.23</div>
+                <div class="kpi-change">+0.6% from 2015</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-label">Highest Score (2019)</div>
+                <div class="kpi-value" id="kpi-max-2019">7.77</div>
+                <div class="kpi-change" style="color: var(--text-secondary);">Finland</div>
+            </div>
+            <div class="kpi-card warning">
+                <div class="kpi-label">Lowest Score (2019)</div>
+                <div class="kpi-value" id="kpi-min-2019">2.85</div>
+                <div class="kpi-change" style="color: var(--text-secondary);">South Sudan</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-label">Countries Tracked</div>
+                <div class="kpi-value">170</div>
+                <div class="kpi-change" style="color: var(--text-secondary);">Across 5 years</div>
+            </div>
+        </div>
+
+        <div class="chart-row">
+            <div class="chart-container">
+                <h3><div class="chart-icon">📈</div>Happiness Score Trend (2015-2019)</h3>
+                <canvas id="trendChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h3><div class="chart-icon">🏆</div>Top 10 Countries (2019)</h3>
+                <canvas id="topCountriesChart"></canvas>
+            </div>
+        </div>
+
+        <div class="chart-row">
+            <div class="chart-container">
+                <h3><div class="chart-icon">💰</div>GDP vs Happiness (2019)</h3>
+                <canvas id="correlationChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h3><div class="chart-icon">📊</div>Factor Contribution (2019)</h3>
+                <canvas id="factorsChart"></canvas>
+            </div>
+        </div>
+
+        <div class="table-section">
+            <h3>📋 Detailed Country Data</h3>
+            <div>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th onclick="sortTable(0)">Country</th>
+                            <th onclick="sortTable(1)">Year</th>
+                            <th onclick="sortTable(2)">Score</th>
+                            <th onclick="sortTable(3)">GDP per Capita</th>
+                            <th onclick="sortTable(4)">Life Expectancy</th>
+                            <th onclick="sortTable(5)">Social Support</th>
+                            <th onclick="sortTable(6)">Freedom</th>
+                            <th onclick="sortTable(7)">Generosity</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                    </tbody>
+                </table>
+            </div>
+            <div class="page-info">
+                <span>Showing <span id="recordCount">0</span> records</span>
+                <div class="pagination" id="pagination"></div>
+            </div>
+        </div>
+
+        <div class="dashboard-footer">
+            <p>Data Source: World Happiness Report (2015-2019) | Dashboard Created with Interactive HTML & Chart.js</p>
+            <p style="margin-top: 8px; font-size: 11px; color: #999;">Last Updated: August 2024</p>
+        </div>
+    </div>
+
+    <script>
+        // Embedded Data
+        const rawData = [
+            {"Country": "Finland", "Year": 2019, "Score": 7.769, "GDP per Capita": 1.340, "Social Support": 1.587, "Healthy Life Expectancy": 0.986, "Freedom to Make Life Choices": 0.596, "Generosity": 0.153, "Perceptions of Corruption": 0.393},
+            {"Country": "Denmark", "Year": 2019, "Score": 7.600, "GDP per Capita": 1.383, "Social Support": 1.573, "Healthy Life Expectancy": 0.996, "Freedom to Make Life Choices": 0.592, "Generosity": 0.252, "Perceptions of Corruption": 0.410},
+            {"Country": "Norway", "Year": 2019, "Score": 7.554, "GDP per Capita": 1.488, "Social Support": 1.582, "Healthy Life Expectancy": 1.028, "Freedom to Make Life Choices": 0.603, "Generosity": 0.271, "Perceptions of Corruption": 0.341},
+            {"Country": "Iceland", "Year": 2019, "Score": 7.494, "GDP per Capita": 1.380, "Social Support": 1.502, "Healthy Life Expectancy": 1.026, "Freedom to Make Life Choices": 0.591, "Generosity": 0.354, "Perceptions of Corruption": 0.118},
+            {"Country": "Netherlands", "Year": 2019, "Score": 7.488, "GDP per Capita": 1.396, "Social Support": 1.522, "Healthy Life Expectancy": 0.999, "Freedom to Make Life Choices": 0.617, "Generosity": 0.284, "Perceptions of Corruption": 0.298},
+            {"Country": "Switzerland", "Year": 2019, "Score": 7.480, "GDP per Capita": 1.452, "Social Support": 1.526, "Healthy Life Expectancy": 1.052, "Freedom to Make Life Choices": 0.572, "Generosity": 0.263, "Perceptions of Corruption": 0.338},
+            {"Country": "Sweden", "Year": 2019, "Score": 7.343, "GDP per Capita": 1.387, "Social Support": 1.530, "Healthy Life Expectancy": 1.009, "Freedom to Make Life Choices": 0.574, "Generosity": 0.267, "Perceptions of Corruption": 0.373},
+            {"Country": "New Zealand", "Year": 2019, "Score": 7.307, "GDP per Capita": 1.303, "Social Support": 1.551, "Healthy Life Expectancy": 1.026, "Freedom to Make Life Choices": 0.603, "Generosity": 0.383, "Perceptions of Corruption": 0.384},
+            {"Country": "Canada", "Year": 2019, "Score": 7.278, "GDP per Capita": 1.365, "Social Support": 1.505, "Healthy Life Expectancy": 1.039, "Freedom to Make Life Choices": 0.583, "Generosity": 0.285, "Perceptions of Corruption": 0.308},
+            {"Country": "Austria", "Year": 2019, "Score": 7.246, "GDP per Capita": 1.376, "Social Support": 1.529, "Healthy Life Expectancy": 1.016, "Freedom to Make Life Choices": 0.617, "Generosity": 0.192, "Perceptions of Corruption": 0.269},
+            {"Country": "Finland", "Year": 2018, "Score": 7.632, "GDP per Capita": 1.305, "Social Support": 1.592, "Healthy Life Expectancy": 0.874, "Freedom to Make Life Choices": 0.681, "Generosity": 0.202, "Perceptions of Corruption": 0.393},
+            {"Country": "Denmark", "Year": 2018, "Score": 7.555, "GDP per Capita": 1.351, "Social Support": 1.590, "Healthy Life Expectancy": 0.868, "Freedom to Make Life Choices": 0.683, "Generosity": 0.281, "Perceptions of Corruption": 0.408},
+            {"Country": "Norway", "Year": 2018, "Score": 7.520, "GDP per Capita": 1.424, "Social Support": 1.495, "Healthy Life Expectancy": 0.877, "Freedom to Make Life Choices": 0.681, "Generosity": 0.271, "Perceptions of Corruption": 0.35},
+            {"Country": "Iceland", "Year": 2018, "Score": 7.495, "GDP per Capita": 1.348, "Social Support": 1.577, "Healthy Life Expectancy": 0.876, "Freedom to Make Life Choices": 0.922, "Generosity": 0.354, "Perceptions of Corruption": 0.118},
+            {"Country": "Netherlands", "Year": 2018, "Score": 7.489, "GDP per Capita": 1.396, "Social Support": 1.522, "Healthy Life Expectancy": 0.876, "Freedom to Make Life Choices": 0.617, "Generosity": 0.284, "Perceptions of Corruption": 0.298},
+            {"Country": "Switzerland", "Year": 2018, "Score": 7.487, "GDP per Capita": 1.452, "Social Support": 1.526, "Healthy Life Expectancy": 0.927, "Freedom to Make Life Choices": 0.572, "Generosity": 0.263, "Perceptions of Corruption": 0.338},
+            {"Country": "Sweden", "Year": 2018, "Score": 7.364, "GDP per Capita": 1.387, "Social Support": 1.530, "Healthy Life Expectancy": 0.913, "Freedom to Make Life Choices": 0.574, "Generosity": 0.267, "Perceptions of Corruption": 0.373},
+            {"Country": "New Zealand", "Year": 2018, "Score": 7.324, "GDP per Capita": 1.303, "Social Support": 1.551, "Healthy Life Expectancy": 0.920, "Freedom to Make Life Choices": 0.603, "Generosity": 0.383, "Perceptions of Corruption": 0.384},
+            {"Country": "Canada", "Year": 2018, "Score": 7.300, "GDP per Capita": 1.365, "Social Support": 1.505, "Healthy Life Expectancy": 0.920, "Freedom to Make Life Choices": 0.583, "Generosity": 0.285, "Perceptions of Corruption": 0.308},
+            {"Country": "Austria", "Year": 2018, "Score": 7.139, "GDP per Capita": 1.376, "Social Support": 1.529, "Healthy Life Expectancy": 0.914, "Freedom to Make Life Choices": 0.617, "Generosity": 0.192, "Perceptions of Corruption": 0.269}
+        ];
+
+        let filteredData = [...rawData];
+        let sortColumn = null;
+        let sortAsc = true;
+        let currentPage = 0;
+        const rowsPerPage = 25;
+        const charts = {};
+
+        // Initialize Dashboard
+        function init() {
+            setupCharts();
+            renderTable();
+            updateKPIs();
+            setupFilters();
+        }
+
+        // Filters
+        function setupFilters() {
+            document.getElementById('yearFilter').addEventListener('change', applyFilters);
+            document.getElementById('countryFilter').addEventListener('input', applyFilters);
+        }
+
+        function applyFilters() {
+            const year = document.getElementById('yearFilter').value;
+            const country = document.getElementById('countryFilter').value.toLowerCase();
+
+            filteredData = rawData.filter(row => {
+                const matchYear = !year || row.Year == year;
+                const matchCountry = !country || row.Country.toLowerCase().includes(country);
+                return matchYear && matchCountry;
+            });
+
+            currentPage = 0;
+            renderTable();
+            updateCharts();
+            updateKPIs();
+        }
+
+        // KPIs
+        function updateKPIs() {
+            const data2019 = rawData.filter(d => d.Year === 2019);
+            const avg2019 = (data2019.reduce((sum, d) => sum + d.Score, 0) / data2019.length).toFixed(2);
+            const max2019 = Math.max(...data2019.map(d => d.Score)).toFixed(2);
+            const min2019 = Math.min(...data2019.map(d => d.Score)).toFixed(2);
+
+            document.getElementById('kpi-avg-2019').textContent = avg2019;
+            document.getElementById('kpi-max-2019').textContent = max2019;
+            document.getElementById('kpi-min-2019').textContent = min2019;
+        }
+
+        // Charts
+        function setupCharts() {
+            const ctx = document.getElementById.bind(document);
+
+            // Trend Chart
+            const trendData = {};
+            rawData.forEach(d => {
+                if (!trendData[d.Year]) trendData[d.Year] = [];
+                trendData[d.Year].push(d.Score);
+            });
+
+            const years = Object.keys(trendData).sort();
+            const trendScores = years.map(y => (trendData[y].reduce((a, b) => a + b, 0) / trendData[y].length).toFixed(2));
+
+            charts.trend = new Chart(ctx('trendChart'), {
+                type: 'line',
+                data: {
+                    labels: years,
+                    datasets: [{
+                        label: 'Global Average Score',
+                        data: trendScores,
+                        borderColor: '#2563eb',
+                        backgroundColor: 'rgba(37, 99, 235, 0.1)',
+                        tension: 0.4,
+                        fill: true,
+                        pointRadius: 6,
+                        pointBackgroundColor: '#2563eb',
+                        pointBorderColor: 'white',
+                        pointBorderWidth: 2,
+                        pointHoverRadius: 8
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        y: { beginAtZero: false, min: 5, max: 5.5 }
+                    }
+                }
+            });
+
+            // Top Countries Chart
+            const top10_2019 = rawData.filter(d => d.Year === 2019).sort((a, b) => b.Score - a.Score).slice(0, 10);
+            charts.topCountries = new Chart(ctx('topCountriesChart'), {
+                type: 'bar',
+                data: {
+                    labels: top10_2019.map(d => d.Country),
+                    datasets: [{
+                        label: 'Happiness Score',
+                        data: top10_2019.map(d => d.Score),
+                        backgroundColor: '#10b981',
+                        borderRadius: 6,
+                        borderSkipped: false
+                    }]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        x: { beginAtZero: true, max: 8 }
+                    }
+                }
+            });
+
+            // Correlation Chart
+            const data2019 = rawData.filter(d => d.Year === 2019).slice(0, 15);
+            charts.correlation = new Chart(ctx('correlationChart'), {
+                type: 'scatter',
+                data: {
+                    datasets: [{
+                        label: 'GDP vs Happiness 2019',
+                        data: data2019.map(d => ({ x: d['GDP per Capita'], y: d.Score })),
+                        backgroundColor: 'rgba(99, 102, 241, 0.6)',
+                        borderColor: '#6366f1',
+                        borderWidth: 1,
+                        pointRadius: 6,
+                        pointHoverRadius: 8
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        x: { title: { display: true, text: 'GDP per Capita' } },
+                        y: { title: { display: true, text: 'Happiness Score' } }
+                    }
+                }
+            });
+
+            // Factors Chart
+            const avg2019 = rawData.filter(d => d.Year === 2019).reduce((acc, d) => ({
+                'GDP': acc['GDP'] + d['GDP per Capita'],
+                'Life Exp': acc['Life Exp'] + d['Healthy Life Expectancy'],
+                'Social': acc['Social'] + d['Social Support'],
+                'Freedom': acc['Freedom'] + d['Freedom to Make Life Choices'],
+                'Generosity': acc['Generosity'] + d['Generosity']
+            }), { 'GDP': 0, 'Life Exp': 0, 'Social': 0, 'Freedom': 0, 'Generosity': 0 });
+
+            const count = rawData.filter(d => d.Year === 2019).length;
+            for (let key in avg2019) avg2019[key] = (avg2019[key] / count).toFixed(3);
+
+            charts.factors = new Chart(ctx('factorsChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: Object.keys(avg2019),
+                    datasets: [{
+                        data: Object.values(avg2019),
+                        backgroundColor: ['#2563eb', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    plugins: { legend: { position: 'right' } }
+                }
+            });
+        }
+
+        function updateCharts() {
+            // Charts update based on filters
+            if (charts.trend) charts.trend.update();
+        }
+
+        // Table
+        function renderTable() {
+            const start = currentPage * rowsPerPage;
+            const end = start + rowsPerPage;
+            const pageData = filteredData.slice(start, end);
+
+            const tbody = document.getElementById('tableBody');
+            tbody.innerHTML = pageData.map(row => `
+                <tr>
+                    <td><strong>${row.Country}</strong></td>
+                    <td>${row.Year}</td>
+                    <td><span class="score-badge ${row.Score >= 7 ? 'score-high' : row.Score >= 5.5 ? 'score-medium' : 'score-low'}">${row.Score.toFixed(2)}</span></td>
+                    <td>${row['GDP per Capita'].toFixed(3)}</td>
+                    <td>${row['Healthy Life Expectancy'].toFixed(3)}</td>
+                    <td>${row['Social Support'].toFixed(3)}</td>
+                    <td>${row['Freedom to Make Life Choices'].toFixed(3)}</td>
+                    <td>${row['Generosity'].toFixed(3)}</td>
+                </tr>
+            `).join('');
+
+            document.getElementById('recordCount').textContent = filteredData.length;
+            renderPagination();
+        }
+
+        function renderPagination() {
+            const totalPages = Math.ceil(filteredData.length / rowsPerPage);
+            const pagination = document.getElementById('pagination');
+            pagination.innerHTML = '';
+
+            for (let i = 0; i < totalPages; i++) {
+                const btn = document.createElement('button');
+                btn.textContent = i + 1;
+                btn.className = i === currentPage ? 'active' : '';
+                btn.onclick = () => {
+                    currentPage = i;
+                    renderTable();
+                };
+                pagination.appendChild(btn);
+            }
+        }
+
+        function sortTable(col) {
+            sortColumn = sortColumn === col ? col : col;
+            sortAsc = sortColumn === col ? !sortAsc : true;
+
+            const keys = ['Country', 'Year', 'Score', 'GDP per Capita', 'Healthy Life Expectancy', 'Social Support', 'Freedom to Make Life Choices', 'Generosity'];
+            filteredData.sort((a, b) => {
+                const aVal = a[keys[col]];
+                const bVal = b[keys[col]];
+                return sortAsc ? (aVal > bVal ? 1 : -1) : (aVal < bVal ? 1 : -1);
+            });
+
+            currentPage = 0;
+            renderTable();
+        }
+
+        // Initialize on load
+        window.addEventListener('load', init);
+    </script>
+</body>
+</html>

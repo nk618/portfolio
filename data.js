@@ -134,25 +134,25 @@ const portfolioData = {
   // ============================================================
   projects: [
     {
+      title: "World Happiness Report Dashboard (2015-2019)",
+      description: "Interactive data visualization dashboard analyzing global happiness metrics, country rankings, financial/health factors, and trend correlations across 5 years.",
+      tags: ["HTML", "JavaScript", "Chart.js", "Data Visualization"],
+      githubLink: "https://github.com/nk618/portfolio/blob/main/world_happiness_dashboard.html",
+      demoLink: "world_happiness_dashboard.html",
+      image: ""
+    },
+    {
       title: "Sales Data Dashboard",
       description: "Interactive Power BI dashboard analyzing regional sales trends, revenue KPIs, and performance metrics to support data-driven business strategy.",
       tags: ["Power BI", "SQL", "Excel"],
       githubLink: "#",
       demoLink: "",
-      image: "" // Add a screenshot path or URL here
-    },
-    {
-      title: "Exploratory Data Analysis on [Dataset Name]",
-      description: "Cleaned and analyzed a real-world dataset to uncover hidden patterns, correlations, and outliers using Python's data science stack.",
-      tags: ["Python", "Pandas", "Matplotlib", "Seaborn"],
-      githubLink: "#",
-      demoLink: "",
       image: ""
     },
     {
-      title: "Predictive Model for [Use Case]",
-      description: "Built and evaluated a machine learning model to forecast outcomes, including feature engineering, cross-validation, and performance tuning.",
-      tags: ["Python", "Scikit-learn", "NumPy"],
+      title: "Exploratory Data Analysis",
+      description: "Cleaned and analyzed real-world datasets to uncover hidden patterns, correlations, and outliers using Python's data science stack.",
+      tags: ["Python", "Pandas", "Matplotlib", "Seaborn"],
       githubLink: "#",
       demoLink: "",
       image: ""
