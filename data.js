@@ -15,6 +15,7 @@ const portfolioData = {
     linkedin: "https://linkedin.com/in/naveen-kumar-g",
     github: "https://github.com/nk618",
     resumeLink: "Naveen_Kumar_G_Resume%20new.pdf",
+    interactiveResume: "Naveen_Kumar_G_Interactive_Resume.html",
   },
 
   // --- About Me ---
