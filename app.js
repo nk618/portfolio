@@ -76,10 +76,6 @@ document.addEventListener('DOMContentLoaded', () => {
         <a href="${data.personal.resumeLink || '#'}" class="btn-primary" target="_blank" rel="noopener noreferrer">
           ${getLucideIcon('download', 18)} Download Resume
         </a>
-        ${data.personal.interactiveResume ? `
-        <a href="${data.personal.interactiveResume}" class="btn-secondary" target="_blank" rel="noopener noreferrer">
-          ${getLucideIcon('external-link', 18)} Interactive Resume
-        </a>` : ''}
         <a href="#contact" class="btn-secondary">
           ${getLucideIcon('send', 18)} Contact Me
         </a>
