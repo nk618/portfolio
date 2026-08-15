@@ -147,7 +147,7 @@ const portfolioData = {
       description: "Comprehensive Excel analytics dashboard evaluating 1,000+ call records, representative performance, customer sales distribution, call duration analysis, and monthly revenue trends.",
       tags: ["MS Excel", "Pivot Tables", "Data Analytics", "KPI Dashboard", "Chart.js"],
       githubLink: "https://github.com/nk618/portfolio/blob/main/Call%20Center%20Dashboard.xlsx",
-      demoLink: "call_center_dashboard.html",
+      demoLink: "",
       image: "assets/project2.png"
     },
     {
