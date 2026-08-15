@@ -1,0 +1,7002 @@
+[
+  {
+    "customer_id": "C0008",
+    "duration": 114,
+    "purchase_amount": 42.0,
+    "rep": "R03",
+    "date": "2010-10-11"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 168,
+    "purchase_amount": 160.0,
+    "rep": "R03",
+    "date": "2010-11-15"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 49,
+    "purchase_amount": 135.0,
+    "rep": "R02",
+    "date": "2010-09-28"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 81,
+    "purchase_amount": 50.0,
+    "rep": "R05",
+    "date": "2010-12-02"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 128,
+    "purchase_amount": 31.0,
+    "rep": "R01",
+    "date": "2010-11-06"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 38,
+    "purchase_amount": 92.0,
+    "rep": "R04",
+    "date": "2010-11-28"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 95,
+    "purchase_amount": 48.0,
+    "rep": "R02",
+    "date": "2010-11-20"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 100,
+    "purchase_amount": 135.0,
+    "rep": "R04",
+    "date": "2010-10-04"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 84,
+    "purchase_amount": 60.0,
+    "rep": "R05",
+    "date": "2010-10-10"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 74,
+    "purchase_amount": 66.0,
+    "rep": "R01",
+    "date": "2010-11-04"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 28,
+    "purchase_amount": 63.0,
+    "rep": "R05",
+    "date": "2010-11-14"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 160,
+    "purchase_amount": 105.0,
+    "rep": "R02",
+    "date": "2010-11-25"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 101,
+    "purchase_amount": 80.0,
+    "rep": "R01",
+    "date": "2010-11-18"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 124,
+    "purchase_amount": 215.0,
+    "rep": "R04",
+    "date": "2010-12-06"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 13,
+    "purchase_amount": 32.0,
+    "rep": "R03",
+    "date": "2010-11-26"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 79,
+    "purchase_amount": 140.0,
+    "rep": "R03",
+    "date": "2010-12-04"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 69,
+    "purchase_amount": 40.0,
+    "rep": "R02",
+    "date": "2010-09-29"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 50,
+    "purchase_amount": 60.0,
+    "rep": "R05",
+    "date": "2010-12-01"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 67,
+    "purchase_amount": 165.0,
+    "rep": "R04",
+    "date": "2010-11-28"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 176,
+    "purchase_amount": 24.0,
+    "rep": "R05",
+    "date": "2010-10-16"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 131,
+    "purchase_amount": 78.0,
+    "rep": "R01",
+    "date": "2010-09-15"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 103,
+    "purchase_amount": 148.0,
+    "rep": "R04",
+    "date": "2010-12-07"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 48,
+    "purchase_amount": 30.0,
+    "rep": "R05",
+    "date": "2010-09-13"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 105,
+    "purchase_amount": 80.0,
+    "rep": "R02",
+    "date": "2010-10-14"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 89,
+    "purchase_amount": 155.0,
+    "rep": "R05",
+    "date": "2010-09-30"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 67,
+    "purchase_amount": 168.0,
+    "rep": "R01",
+    "date": "2010-09-12"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 157,
+    "purchase_amount": 69.0,
+    "rep": "R01",
+    "date": "2010-11-01"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 71,
+    "purchase_amount": 90.0,
+    "rep": "R05",
+    "date": "2010-11-15"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 42,
+    "purchase_amount": 205.0,
+    "rep": "R01",
+    "date": "2010-11-22"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 90,
+    "purchase_amount": 64.0,
+    "rep": "R02",
+    "date": "2010-09-27"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 99,
+    "purchase_amount": 195.0,
+    "rep": "R01",
+    "date": "2010-09-15"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 58,
+    "purchase_amount": 140.0,
+    "rep": "R02",
+    "date": "2010-11-17"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 116,
+    "purchase_amount": 128.0,
+    "rep": "R05",
+    "date": "2010-11-20"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 31,
+    "purchase_amount": 123.0,
+    "rep": "R04",
+    "date": "2010-11-12"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 28,
+    "purchase_amount": 28.0,
+    "rep": "R03",
+    "date": "2010-12-06"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 62,
+    "purchase_amount": 99.0,
+    "rep": "R05",
+    "date": "2010-11-10"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 147,
+    "purchase_amount": 105.0,
+    "rep": "R04",
+    "date": "2010-12-07"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 69,
+    "purchase_amount": 108.0,
+    "rep": "R03",
+    "date": "2010-10-16"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 82,
+    "purchase_amount": 42.0,
+    "rep": "R05",
+    "date": "2010-10-22"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 73,
+    "purchase_amount": 80.0,
+    "rep": "R05",
+    "date": "2010-12-03"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 59,
+    "purchase_amount": 136.0,
+    "rep": "R05",
+    "date": "2010-09-30"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 81,
+    "purchase_amount": 156.0,
+    "rep": "R01",
+    "date": "2010-10-26"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 81,
+    "purchase_amount": 86.0,
+    "rep": "R04",
+    "date": "2010-12-06"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 98,
+    "purchase_amount": 108.0,
+    "rep": "R02",
+    "date": "2010-09-13"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 105,
+    "purchase_amount": 125.0,
+    "rep": "R05",
+    "date": "2010-10-11"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 54,
+    "purchase_amount": 111.0,
+    "rep": "R01",
+    "date": "2010-11-13"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 130,
+    "purchase_amount": 126.0,
+    "rep": "R04",
+    "date": "2010-11-27"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 155,
+    "purchase_amount": 110.0,
+    "rep": "R01",
+    "date": "2010-10-18"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 141,
+    "purchase_amount": 54.0,
+    "rep": "R03",
+    "date": "2010-10-04"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 31,
+    "purchase_amount": 135.0,
+    "rep": "R02",
+    "date": "2010-09-29"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 94,
+    "purchase_amount": 120.0,
+    "rep": "R03",
+    "date": "2010-11-24"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 119,
+    "purchase_amount": 135.0,
+    "rep": "R05",
+    "date": "2010-10-27"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 139,
+    "purchase_amount": 96.0,
+    "rep": "R02",
+    "date": "2010-11-07"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 68,
+    "purchase_amount": 66.0,
+    "rep": "R02",
+    "date": "2010-10-01"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 48,
+    "purchase_amount": 68.0,
+    "rep": "R01",
+    "date": "2010-10-24"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 44,
+    "purchase_amount": 105.0,
+    "rep": "R03",
+    "date": "2010-10-08"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 102,
+    "purchase_amount": 69.0,
+    "rep": "R02",
+    "date": "2010-11-21"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 80,
+    "purchase_amount": 140.0,
+    "rep": "R05",
+    "date": "2010-09-22"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 128,
+    "purchase_amount": 72.0,
+    "rep": "R05",
+    "date": "2010-10-28"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 145,
+    "purchase_amount": 78.0,
+    "rep": "R02",
+    "date": "2010-10-03"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 132,
+    "purchase_amount": 168.0,
+    "rep": "R03",
+    "date": "2010-10-10"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 104,
+    "purchase_amount": 86.0,
+    "rep": "R05",
+    "date": "2010-09-25"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 105,
+    "purchase_amount": 56.0,
+    "rep": "R01",
+    "date": "2010-09-13"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 43,
+    "purchase_amount": 23.0,
+    "rep": "R03",
+    "date": "2010-10-15"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 106,
+    "purchase_amount": 108.0,
+    "rep": "R05",
+    "date": "2010-09-16"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 54,
+    "purchase_amount": 170.0,
+    "rep": "R02",
+    "date": "2010-10-07"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 119,
+    "purchase_amount": 22.0,
+    "rep": "R02",
+    "date": "2010-10-09"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 74,
+    "purchase_amount": 96.0,
+    "rep": "R04",
+    "date": "2010-09-20"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 75,
+    "purchase_amount": 26.0,
+    "rep": "R03",
+    "date": "2010-11-07"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 58,
+    "purchase_amount": 135.0,
+    "rep": "R02",
+    "date": "2010-10-03"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 90,
+    "purchase_amount": 132.0,
+    "rep": "R02",
+    "date": "2010-11-15"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 37,
+    "purchase_amount": 96.0,
+    "rep": "R02",
+    "date": "2010-10-10"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 29,
+    "purchase_amount": 170.0,
+    "rep": "R01",
+    "date": "2010-10-09"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 149,
+    "purchase_amount": 72.0,
+    "rep": "R01",
+    "date": "2010-10-20"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 110,
+    "purchase_amount": 96.0,
+    "rep": "R03",
+    "date": "2010-09-15"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 83,
+    "purchase_amount": 28.0,
+    "rep": "R01",
+    "date": "2010-10-25"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 135,
+    "purchase_amount": 46.0,
+    "rep": "R05",
+    "date": "2010-10-06"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 118,
+    "purchase_amount": 126.0,
+    "rep": "R02",
+    "date": "2010-09-24"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 63,
+    "purchase_amount": 160.0,
+    "rep": "R05",
+    "date": "2010-11-28"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 27,
+    "purchase_amount": 70.0,
+    "rep": "R03",
+    "date": "2010-11-07"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 155,
+    "purchase_amount": 180.0,
+    "rep": "R05",
+    "date": "2010-11-01"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 61,
+    "purchase_amount": 150.0,
+    "rep": "R03",
+    "date": "2010-11-26"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 138,
+    "purchase_amount": 35.0,
+    "rep": "R02",
+    "date": "2010-09-26"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 135,
+    "purchase_amount": 35.0,
+    "rep": "R04",
+    "date": "2010-11-16"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 6,
+    "purchase_amount": 102.0,
+    "rep": "R01",
+    "date": "2010-11-06"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 79,
+    "purchase_amount": 148.0,
+    "rep": "R03",
+    "date": "2010-11-08"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 143,
+    "purchase_amount": 124.0,
+    "rep": "R01",
+    "date": "2010-10-03"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 114,
+    "purchase_amount": 120.0,
+    "rep": "R05",
+    "date": "2010-11-12"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 152,
+    "purchase_amount": 123.0,
+    "rep": "R02",
+    "date": "2010-11-01"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 65,
+    "purchase_amount": 80.0,
+    "rep": "R05",
+    "date": "2010-09-12"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 61,
+    "purchase_amount": 140.0,
+    "rep": "R03",
+    "date": "2010-09-19"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 151,
+    "purchase_amount": 46.0,
+    "rep": "R04",
+    "date": "2010-09-25"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 99,
+    "purchase_amount": 112.0,
+    "rep": "R05",
+    "date": "2010-11-04"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 42,
+    "purchase_amount": 111.0,
+    "rep": "R04",
+    "date": "2010-11-02"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 60,
+    "purchase_amount": 69.0,
+    "rep": "R05",
+    "date": "2010-10-09"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 71,
+    "purchase_amount": 104.0,
+    "rep": "R03",
+    "date": "2010-09-27"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 114,
+    "purchase_amount": 23.0,
+    "rep": "R04",
+    "date": "2010-10-11"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 45,
+    "purchase_amount": 34.0,
+    "rep": "R04",
+    "date": "2010-09-28"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 95,
+    "purchase_amount": 130.0,
+    "rep": "R02",
+    "date": "2010-11-20"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 102,
+    "purchase_amount": 165.0,
+    "rep": "R01",
+    "date": "2010-11-30"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 115,
+    "purchase_amount": 150.0,
+    "rep": "R04",
+    "date": "2010-11-21"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 68,
+    "purchase_amount": 22.0,
+    "rep": "R02",
+    "date": "2010-11-17"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 84,
+    "purchase_amount": 195.0,
+    "rep": "R05",
+    "date": "2010-12-03"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 67,
+    "purchase_amount": 24.0,
+    "rep": "R04",
+    "date": "2010-10-25"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 127,
+    "purchase_amount": 165.0,
+    "rep": "R04",
+    "date": "2010-11-18"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 137,
+    "purchase_amount": 86.0,
+    "rep": "R03",
+    "date": "2010-11-13"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 32,
+    "purchase_amount": 37.0,
+    "rep": "R03",
+    "date": "2010-10-27"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 86,
+    "purchase_amount": 70.0,
+    "rep": "R05",
+    "date": "2010-11-03"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 75,
+    "purchase_amount": 21.0,
+    "rep": "R03",
+    "date": "2010-10-31"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 114,
+    "purchase_amount": 54.0,
+    "rep": "R01",
+    "date": "2010-10-08"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 64,
+    "purchase_amount": 84.0,
+    "rep": "R05",
+    "date": "2010-11-27"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 62,
+    "purchase_amount": 21.0,
+    "rep": "R05",
+    "date": "2010-10-01"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 95,
+    "purchase_amount": 120.0,
+    "rep": "R02",
+    "date": "2010-10-06"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 95,
+    "purchase_amount": 52.0,
+    "rep": "R02",
+    "date": "2010-11-15"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 30,
+    "purchase_amount": 105.0,
+    "rep": "R03",
+    "date": "2010-10-12"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 132,
+    "purchase_amount": 112.0,
+    "rep": "R03",
+    "date": "2010-11-04"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 129,
+    "purchase_amount": 180.0,
+    "rep": "R05",
+    "date": "2010-11-15"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 109,
+    "purchase_amount": 105.0,
+    "rep": "R05",
+    "date": "2010-11-06"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 100,
+    "purchase_amount": 135.0,
+    "rep": "R05",
+    "date": "2010-10-02"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 19,
+    "purchase_amount": 28.0,
+    "rep": "R01",
+    "date": "2010-09-17"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 95,
+    "purchase_amount": 66.0,
+    "rep": "R05",
+    "date": "2010-10-17"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 111,
+    "purchase_amount": 43.0,
+    "rep": "R01",
+    "date": "2010-11-06"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 64,
+    "purchase_amount": 172.0,
+    "rep": "R05",
+    "date": "2010-10-15"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 78,
+    "purchase_amount": 62.0,
+    "rep": "R05",
+    "date": "2010-10-02"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 80,
+    "purchase_amount": 155.0,
+    "rep": "R04",
+    "date": "2010-11-03"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 116,
+    "purchase_amount": 140.0,
+    "rep": "R05",
+    "date": "2010-10-18"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 113,
+    "purchase_amount": 123.0,
+    "rep": "R01",
+    "date": "2010-09-17"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 55,
+    "purchase_amount": 78.0,
+    "rep": "R01",
+    "date": "2010-10-04"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 78,
+    "purchase_amount": 23.0,
+    "rep": "R02",
+    "date": "2010-09-17"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 155,
+    "purchase_amount": 80.0,
+    "rep": "R01",
+    "date": "2010-09-18"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 21,
+    "purchase_amount": 93.0,
+    "rep": "R02",
+    "date": "2010-11-18"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 99,
+    "purchase_amount": 78.0,
+    "rep": "R02",
+    "date": "2010-09-18"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 57,
+    "purchase_amount": 88.0,
+    "rep": "R05",
+    "date": "2010-12-05"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 38,
+    "purchase_amount": 100.0,
+    "rep": "R04",
+    "date": "2010-09-22"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 130,
+    "purchase_amount": 150.0,
+    "rep": "R04",
+    "date": "2010-10-23"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 96,
+    "purchase_amount": 120.0,
+    "rep": "R03",
+    "date": "2010-09-13"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 55,
+    "purchase_amount": 23.0,
+    "rep": "R01",
+    "date": "2010-09-26"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 153,
+    "purchase_amount": 200.0,
+    "rep": "R05",
+    "date": "2010-10-21"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 131,
+    "purchase_amount": 172.0,
+    "rep": "R01",
+    "date": "2010-11-04"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 137,
+    "purchase_amount": 90.0,
+    "rep": "R04",
+    "date": "2010-11-09"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 47,
+    "purchase_amount": 34.0,
+    "rep": "R02",
+    "date": "2010-09-29"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 53,
+    "purchase_amount": 80.0,
+    "rep": "R01",
+    "date": "2010-09-30"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 154,
+    "purchase_amount": 22.0,
+    "rep": "R01",
+    "date": "2010-11-07"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 89,
+    "purchase_amount": 90.0,
+    "rep": "R05",
+    "date": "2010-11-19"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 28,
+    "purchase_amount": 74.0,
+    "rep": "R03",
+    "date": "2010-10-25"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 87,
+    "purchase_amount": 155.0,
+    "rep": "R01",
+    "date": "2010-09-13"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 132,
+    "purchase_amount": 43.0,
+    "rep": "R02",
+    "date": "2010-10-08"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 137,
+    "purchase_amount": 34.0,
+    "rep": "R01",
+    "date": "2010-09-28"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 76,
+    "purchase_amount": 64.0,
+    "rep": "R03",
+    "date": "2010-10-23"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 45,
+    "purchase_amount": 84.0,
+    "rep": "R05",
+    "date": "2010-10-22"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 39,
+    "purchase_amount": 81.0,
+    "rep": "R01",
+    "date": "2010-10-24"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 89,
+    "purchase_amount": 70.0,
+    "rep": "R04",
+    "date": "2010-11-16"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 40,
+    "purchase_amount": 92.0,
+    "rep": "R03",
+    "date": "2010-10-08"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 115,
+    "purchase_amount": 48.0,
+    "rep": "R02",
+    "date": "2010-11-26"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 13,
+    "purchase_amount": 63.0,
+    "rep": "R01",
+    "date": "2010-09-15"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 58,
+    "purchase_amount": 176.0,
+    "rep": "R01",
+    "date": "2010-12-05"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 155,
+    "purchase_amount": 132.0,
+    "rep": "R03",
+    "date": "2010-09-28"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 139,
+    "purchase_amount": 48.0,
+    "rep": "R04",
+    "date": "2010-11-23"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 107,
+    "purchase_amount": 66.0,
+    "rep": "R05",
+    "date": "2010-11-29"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 131,
+    "purchase_amount": 39.0,
+    "rep": "R02",
+    "date": "2010-11-14"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 102,
+    "purchase_amount": 81.0,
+    "rep": "R01",
+    "date": "2010-10-17"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 100,
+    "purchase_amount": 44.0,
+    "rep": "R04",
+    "date": "2010-10-19"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 139,
+    "purchase_amount": 88.0,
+    "rep": "R02",
+    "date": "2010-11-18"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 116,
+    "purchase_amount": 63.0,
+    "rep": "R04",
+    "date": "2010-10-29"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 126,
+    "purchase_amount": 96.0,
+    "rep": "R01",
+    "date": "2010-12-08"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 20,
+    "purchase_amount": 22.0,
+    "rep": "R05",
+    "date": "2010-10-22"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 75,
+    "purchase_amount": 195.0,
+    "rep": "R03",
+    "date": "2010-09-22"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 155,
+    "purchase_amount": 70.0,
+    "rep": "R03",
+    "date": "2010-10-12"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 125,
+    "purchase_amount": 27.0,
+    "rep": "R05",
+    "date": "2010-11-12"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 63,
+    "purchase_amount": 87.0,
+    "rep": "R03",
+    "date": "2010-10-31"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 69,
+    "purchase_amount": 132.0,
+    "rep": "R02",
+    "date": "2010-10-08"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 90,
+    "purchase_amount": 72.0,
+    "rep": "R04",
+    "date": "2010-11-17"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 59,
+    "purchase_amount": 128.0,
+    "rep": "R02",
+    "date": "2010-10-06"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 142,
+    "purchase_amount": 44.0,
+    "rep": "R04",
+    "date": "2010-10-13"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 59,
+    "purchase_amount": 64.0,
+    "rep": "R04",
+    "date": "2010-11-11"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 58,
+    "purchase_amount": 43.0,
+    "rep": "R02",
+    "date": "2010-10-29"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 86,
+    "purchase_amount": 27.0,
+    "rep": "R02",
+    "date": "2010-09-27"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 131,
+    "purchase_amount": 140.0,
+    "rep": "R05",
+    "date": "2010-11-03"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 76,
+    "purchase_amount": 110.0,
+    "rep": "R02",
+    "date": "2010-12-08"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 28,
+    "purchase_amount": 78.0,
+    "rep": "R02",
+    "date": "2010-10-08"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 103,
+    "purchase_amount": 172.0,
+    "rep": "R05",
+    "date": "2010-10-11"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 127,
+    "purchase_amount": 150.0,
+    "rep": "R05",
+    "date": "2010-09-13"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 82,
+    "purchase_amount": 93.0,
+    "rep": "R01",
+    "date": "2010-10-06"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 84,
+    "purchase_amount": 22.0,
+    "rep": "R01",
+    "date": "2010-10-15"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 89,
+    "purchase_amount": 90.0,
+    "rep": "R01",
+    "date": "2010-10-02"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 67,
+    "purchase_amount": 40.0,
+    "rep": "R01",
+    "date": "2010-09-27"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 11,
+    "purchase_amount": 25.0,
+    "rep": "R03",
+    "date": "2010-11-13"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 103,
+    "purchase_amount": 75.0,
+    "rep": "R03",
+    "date": "2010-09-18"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 63,
+    "purchase_amount": 82.0,
+    "rep": "R05",
+    "date": "2010-10-09"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 129,
+    "purchase_amount": 120.0,
+    "rep": "R03",
+    "date": "2010-09-20"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 138,
+    "purchase_amount": 44.0,
+    "rep": "R05",
+    "date": "2010-11-16"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 47,
+    "purchase_amount": 120.0,
+    "rep": "R02",
+    "date": "2010-09-29"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 98,
+    "purchase_amount": 100.0,
+    "rep": "R01",
+    "date": "2010-11-28"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 92,
+    "purchase_amount": 125.0,
+    "rep": "R01",
+    "date": "2010-12-01"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 77,
+    "purchase_amount": 130.0,
+    "rep": "R05",
+    "date": "2010-09-24"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 127,
+    "purchase_amount": 99.0,
+    "rep": "R02",
+    "date": "2010-09-30"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 78,
+    "purchase_amount": 43.0,
+    "rep": "R02",
+    "date": "2010-09-29"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 69,
+    "purchase_amount": 126.0,
+    "rep": "R03",
+    "date": "2010-09-18"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 89,
+    "purchase_amount": 96.0,
+    "rep": "R02",
+    "date": "2010-10-21"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 85,
+    "purchase_amount": 46.0,
+    "rep": "R04",
+    "date": "2010-10-13"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 60,
+    "purchase_amount": 68.0,
+    "rep": "R02",
+    "date": "2010-11-01"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 90,
+    "purchase_amount": 170.0,
+    "rep": "R04",
+    "date": "2010-09-11"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 40,
+    "purchase_amount": 24.0,
+    "rep": "R02",
+    "date": "2010-09-09"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 93,
+    "purchase_amount": 132.0,
+    "rep": "R01",
+    "date": "2010-09-21"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 73,
+    "purchase_amount": 34.0,
+    "rep": "R04",
+    "date": "2010-09-24"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 119,
+    "purchase_amount": 20.0,
+    "rep": "R04",
+    "date": "2010-12-04"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 61,
+    "purchase_amount": 140.0,
+    "rep": "R01",
+    "date": "2010-11-24"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 84,
+    "purchase_amount": 54.0,
+    "rep": "R05",
+    "date": "2010-09-11"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 63,
+    "purchase_amount": 148.0,
+    "rep": "R03",
+    "date": "2010-10-25"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 74,
+    "purchase_amount": 144.0,
+    "rep": "R02",
+    "date": "2010-10-24"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 101,
+    "purchase_amount": 128.0,
+    "rep": "R03",
+    "date": "2010-09-27"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 40,
+    "purchase_amount": 34.0,
+    "rep": "R02",
+    "date": "2010-11-19"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 106,
+    "purchase_amount": 108.0,
+    "rep": "R02",
+    "date": "2010-11-16"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 75,
+    "purchase_amount": 32.0,
+    "rep": "R03",
+    "date": "2010-10-16"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 59,
+    "purchase_amount": 215.0,
+    "rep": "R01",
+    "date": "2010-09-21"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 56,
+    "purchase_amount": 31.0,
+    "rep": "R05",
+    "date": "2010-10-15"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 144,
+    "purchase_amount": 124.0,
+    "rep": "R02",
+    "date": "2010-09-25"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 126,
+    "purchase_amount": 128.0,
+    "rep": "R02",
+    "date": "2010-12-05"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 56,
+    "purchase_amount": 129.0,
+    "rep": "R03",
+    "date": "2010-12-01"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 56,
+    "purchase_amount": 225.0,
+    "rep": "R01",
+    "date": "2010-11-26"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 96,
+    "purchase_amount": 108.0,
+    "rep": "R02",
+    "date": "2010-11-30"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 101,
+    "purchase_amount": 130.0,
+    "rep": "R04",
+    "date": "2010-10-14"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 48,
+    "purchase_amount": 200.0,
+    "rep": "R02",
+    "date": "2010-10-20"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 121,
+    "purchase_amount": 32.0,
+    "rep": "R04",
+    "date": "2010-12-06"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 80,
+    "purchase_amount": 168.0,
+    "rep": "R01",
+    "date": "2010-11-01"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 166,
+    "purchase_amount": 36.0,
+    "rep": "R02",
+    "date": "2010-10-18"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 56,
+    "purchase_amount": 88.0,
+    "rep": "R04",
+    "date": "2010-09-09"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 75,
+    "purchase_amount": 111.0,
+    "rep": "R05",
+    "date": "2010-10-07"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 61,
+    "purchase_amount": 160.0,
+    "rep": "R01",
+    "date": "2010-11-05"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 53,
+    "purchase_amount": 210.0,
+    "rep": "R02",
+    "date": "2010-09-17"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 155,
+    "purchase_amount": 164.0,
+    "rep": "R05",
+    "date": "2010-10-28"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 103,
+    "purchase_amount": 117.0,
+    "rep": "R02",
+    "date": "2010-11-17"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 149,
+    "purchase_amount": 60.0,
+    "rep": "R05",
+    "date": "2010-10-31"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 94,
+    "purchase_amount": 99.0,
+    "rep": "R05",
+    "date": "2010-09-13"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 118,
+    "purchase_amount": 99.0,
+    "rep": "R04",
+    "date": "2010-10-29"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 63,
+    "purchase_amount": 48.0,
+    "rep": "R04",
+    "date": "2010-10-26"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 75,
+    "purchase_amount": 40.0,
+    "rep": "R04",
+    "date": "2010-12-08"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 154,
+    "purchase_amount": 172.0,
+    "rep": "R02",
+    "date": "2010-11-06"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 54,
+    "purchase_amount": 26.0,
+    "rep": "R02",
+    "date": "2010-11-27"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 55,
+    "purchase_amount": 99.0,
+    "rep": "R05",
+    "date": "2010-09-13"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 140,
+    "purchase_amount": 93.0,
+    "rep": "R01",
+    "date": "2010-10-23"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 141,
+    "purchase_amount": 80.0,
+    "rep": "R03",
+    "date": "2010-10-30"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 87,
+    "purchase_amount": 225.0,
+    "rep": "R05",
+    "date": "2010-10-26"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 95,
+    "purchase_amount": 28.0,
+    "rep": "R04",
+    "date": "2010-09-26"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 89,
+    "purchase_amount": 126.0,
+    "rep": "R03",
+    "date": "2010-11-12"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 92,
+    "purchase_amount": 58.0,
+    "rep": "R05",
+    "date": "2010-09-10"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 95,
+    "purchase_amount": 111.0,
+    "rep": "R05",
+    "date": "2010-11-30"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 86,
+    "purchase_amount": 68.0,
+    "rep": "R01",
+    "date": "2010-10-02"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 70,
+    "purchase_amount": 28.0,
+    "rep": "R02",
+    "date": "2010-11-28"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 104,
+    "purchase_amount": 88.0,
+    "rep": "R02",
+    "date": "2010-10-17"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 142,
+    "purchase_amount": 31.0,
+    "rep": "R04",
+    "date": "2010-10-17"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 65,
+    "purchase_amount": 84.0,
+    "rep": "R03",
+    "date": "2010-12-02"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 63,
+    "purchase_amount": 42.0,
+    "rep": "R04",
+    "date": "2010-12-05"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 128,
+    "purchase_amount": 60.0,
+    "rep": "R03",
+    "date": "2010-09-14"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 131,
+    "purchase_amount": 58.0,
+    "rep": "R02",
+    "date": "2010-10-02"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 100,
+    "purchase_amount": 124.0,
+    "rep": "R02",
+    "date": "2010-10-31"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 75,
+    "purchase_amount": 135.0,
+    "rep": "R02",
+    "date": "2010-10-27"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 152,
+    "purchase_amount": 215.0,
+    "rep": "R01",
+    "date": "2010-09-17"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 57,
+    "purchase_amount": 35.0,
+    "rep": "R03",
+    "date": "2010-11-15"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 106,
+    "purchase_amount": 112.0,
+    "rep": "R01",
+    "date": "2010-11-14"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 68,
+    "purchase_amount": 32.0,
+    "rep": "R03",
+    "date": "2010-11-04"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 105,
+    "purchase_amount": 96.0,
+    "rep": "R02",
+    "date": "2010-11-05"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 41,
+    "purchase_amount": 68.0,
+    "rep": "R04",
+    "date": "2010-11-20"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 153,
+    "purchase_amount": 34.0,
+    "rep": "R01",
+    "date": "2010-09-09"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 113,
+    "purchase_amount": 168.0,
+    "rep": "R04",
+    "date": "2010-10-16"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 59,
+    "purchase_amount": 210.0,
+    "rep": "R03",
+    "date": "2010-10-17"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 144,
+    "purchase_amount": 140.0,
+    "rep": "R05",
+    "date": "2010-10-13"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 73,
+    "purchase_amount": 215.0,
+    "rep": "R04",
+    "date": "2010-11-11"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 30,
+    "purchase_amount": 168.0,
+    "rep": "R02",
+    "date": "2010-11-05"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 93,
+    "purchase_amount": 72.0,
+    "rep": "R03",
+    "date": "2010-09-29"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 88,
+    "purchase_amount": 144.0,
+    "rep": "R03",
+    "date": "2010-10-07"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 62,
+    "purchase_amount": 32.0,
+    "rep": "R04",
+    "date": "2010-12-01"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 113,
+    "purchase_amount": 81.0,
+    "rep": "R02",
+    "date": "2010-12-05"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 111,
+    "purchase_amount": 86.0,
+    "rep": "R04",
+    "date": "2010-09-18"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 64,
+    "purchase_amount": 22.0,
+    "rep": "R05",
+    "date": "2010-09-28"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 160,
+    "purchase_amount": 116.0,
+    "rep": "R05",
+    "date": "2010-10-05"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 158,
+    "purchase_amount": 60.0,
+    "rep": "R01",
+    "date": "2010-10-05"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 134,
+    "purchase_amount": 160.0,
+    "rep": "R01",
+    "date": "2010-10-22"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 83,
+    "purchase_amount": 42.0,
+    "rep": "R04",
+    "date": "2010-12-07"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 145,
+    "purchase_amount": 136.0,
+    "rep": "R05",
+    "date": "2010-11-16"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 6,
+    "purchase_amount": 29.0,
+    "rep": "R03",
+    "date": "2010-11-15"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 137,
+    "purchase_amount": 114.0,
+    "rep": "R04",
+    "date": "2010-11-02"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 71,
+    "purchase_amount": 105.0,
+    "rep": "R04",
+    "date": "2010-09-15"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 49,
+    "purchase_amount": 80.0,
+    "rep": "R05",
+    "date": "2010-10-16"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 71,
+    "purchase_amount": 102.0,
+    "rep": "R03",
+    "date": "2010-11-27"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 72,
+    "purchase_amount": 132.0,
+    "rep": "R02",
+    "date": "2010-11-10"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 63,
+    "purchase_amount": 105.0,
+    "rep": "R05",
+    "date": "2010-11-18"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 65,
+    "purchase_amount": 87.0,
+    "rep": "R02",
+    "date": "2010-12-06"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 43,
+    "purchase_amount": 99.0,
+    "rep": "R04",
+    "date": "2010-11-05"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 67,
+    "purchase_amount": 45.0,
+    "rep": "R01",
+    "date": "2010-10-03"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 80,
+    "purchase_amount": 45.0,
+    "rep": "R03",
+    "date": "2010-10-23"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 84,
+    "purchase_amount": 72.0,
+    "rep": "R02",
+    "date": "2010-11-16"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 85,
+    "purchase_amount": 66.0,
+    "rep": "R03",
+    "date": "2010-10-01"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 134,
+    "purchase_amount": 180.0,
+    "rep": "R05",
+    "date": "2010-09-22"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 28,
+    "purchase_amount": 84.0,
+    "rep": "R03",
+    "date": "2010-10-12"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 113,
+    "purchase_amount": 42.0,
+    "rep": "R05",
+    "date": "2010-10-21"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 46,
+    "purchase_amount": 165.0,
+    "rep": "R02",
+    "date": "2010-11-04"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 154,
+    "purchase_amount": 90.0,
+    "rep": "R05",
+    "date": "2010-10-16"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 123,
+    "purchase_amount": 36.0,
+    "rep": "R03",
+    "date": "2010-09-26"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 103,
+    "purchase_amount": 42.0,
+    "rep": "R05",
+    "date": "2010-10-06"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 135,
+    "purchase_amount": 125.0,
+    "rep": "R03",
+    "date": "2010-10-30"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 130,
+    "purchase_amount": 120.0,
+    "rep": "R01",
+    "date": "2010-10-20"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 129,
+    "purchase_amount": 144.0,
+    "rep": "R03",
+    "date": "2010-09-18"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 111,
+    "purchase_amount": 175.0,
+    "rep": "R02",
+    "date": "2010-12-08"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 88,
+    "purchase_amount": 81.0,
+    "rep": "R05",
+    "date": "2010-09-28"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 88,
+    "purchase_amount": 35.0,
+    "rep": "R01",
+    "date": "2010-09-24"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 60,
+    "purchase_amount": 215.0,
+    "rep": "R02",
+    "date": "2010-12-02"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 163,
+    "purchase_amount": 62.0,
+    "rep": "R04",
+    "date": "2010-12-01"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 67,
+    "purchase_amount": 172.0,
+    "rep": "R02",
+    "date": "2010-10-22"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 114,
+    "purchase_amount": 126.0,
+    "rep": "R04",
+    "date": "2010-11-05"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 81,
+    "purchase_amount": 160.0,
+    "rep": "R04",
+    "date": "2010-11-09"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 82,
+    "purchase_amount": 144.0,
+    "rep": "R05",
+    "date": "2010-09-21"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 69,
+    "purchase_amount": 32.0,
+    "rep": "R01",
+    "date": "2010-09-27"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 99,
+    "purchase_amount": 48.0,
+    "rep": "R02",
+    "date": "2010-10-15"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 95,
+    "purchase_amount": 75.0,
+    "rep": "R04",
+    "date": "2010-10-31"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 127,
+    "purchase_amount": 160.0,
+    "rep": "R01",
+    "date": "2010-11-24"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 107,
+    "purchase_amount": 156.0,
+    "rep": "R01",
+    "date": "2010-09-15"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 90,
+    "purchase_amount": 99.0,
+    "rep": "R02",
+    "date": "2010-10-08"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 110,
+    "purchase_amount": 36.0,
+    "rep": "R03",
+    "date": "2010-12-01"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 43,
+    "purchase_amount": 128.0,
+    "rep": "R01",
+    "date": "2010-10-15"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 139,
+    "purchase_amount": 81.0,
+    "rep": "R02",
+    "date": "2010-10-15"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 139,
+    "purchase_amount": 114.0,
+    "rep": "R05",
+    "date": "2010-12-04"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 71,
+    "purchase_amount": 110.0,
+    "rep": "R05",
+    "date": "2010-09-30"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 126,
+    "purchase_amount": 175.0,
+    "rep": "R01",
+    "date": "2010-09-27"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 95,
+    "purchase_amount": 21.0,
+    "rep": "R02",
+    "date": "2010-11-13"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 55,
+    "purchase_amount": 200.0,
+    "rep": "R05",
+    "date": "2010-10-16"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 38,
+    "purchase_amount": 81.0,
+    "rep": "R02",
+    "date": "2010-09-27"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 106,
+    "purchase_amount": 145.0,
+    "rep": "R02",
+    "date": "2010-11-03"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 113,
+    "purchase_amount": 42.0,
+    "rep": "R04",
+    "date": "2010-12-07"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 120,
+    "purchase_amount": 26.0,
+    "rep": "R03",
+    "date": "2010-10-08"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 95,
+    "purchase_amount": 123.0,
+    "rep": "R04",
+    "date": "2010-10-26"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 45,
+    "purchase_amount": 156.0,
+    "rep": "R01",
+    "date": "2010-11-15"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 49,
+    "purchase_amount": 172.0,
+    "rep": "R05",
+    "date": "2010-11-12"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 81,
+    "purchase_amount": 78.0,
+    "rep": "R02",
+    "date": "2010-11-25"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 61,
+    "purchase_amount": 38.0,
+    "rep": "R03",
+    "date": "2010-09-28"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 42,
+    "purchase_amount": 45.0,
+    "rep": "R01",
+    "date": "2010-09-26"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 81,
+    "purchase_amount": 40.0,
+    "rep": "R04",
+    "date": "2010-11-11"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 79,
+    "purchase_amount": 120.0,
+    "rep": "R02",
+    "date": "2010-10-15"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 124,
+    "purchase_amount": 132.0,
+    "rep": "R02",
+    "date": "2010-10-15"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 60,
+    "purchase_amount": 41.0,
+    "rep": "R02",
+    "date": "2010-11-03"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 111,
+    "purchase_amount": 144.0,
+    "rep": "R01",
+    "date": "2010-10-11"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 115,
+    "purchase_amount": 111.0,
+    "rep": "R02",
+    "date": "2010-11-08"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 47,
+    "purchase_amount": 84.0,
+    "rep": "R01",
+    "date": "2010-09-19"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 53,
+    "purchase_amount": 110.0,
+    "rep": "R01",
+    "date": "2010-11-13"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 99,
+    "purchase_amount": 74.0,
+    "rep": "R02",
+    "date": "2010-10-06"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 26,
+    "purchase_amount": 43.0,
+    "rep": "R04",
+    "date": "2010-09-09"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 137,
+    "purchase_amount": 20.0,
+    "rep": "R01",
+    "date": "2010-10-05"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 70,
+    "purchase_amount": 114.0,
+    "rep": "R03",
+    "date": "2010-10-05"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 67,
+    "purchase_amount": 35.0,
+    "rep": "R04",
+    "date": "2010-11-15"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 73,
+    "purchase_amount": 45.0,
+    "rep": "R02",
+    "date": "2010-10-01"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 110,
+    "purchase_amount": 21.0,
+    "rep": "R04",
+    "date": "2010-12-01"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 130,
+    "purchase_amount": 54.0,
+    "rep": "R03",
+    "date": "2010-11-30"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 145,
+    "purchase_amount": 110.0,
+    "rep": "R04",
+    "date": "2010-09-10"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 23,
+    "purchase_amount": 86.0,
+    "rep": "R02",
+    "date": "2010-09-18"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 50,
+    "purchase_amount": 105.0,
+    "rep": "R02",
+    "date": "2010-10-04"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 69,
+    "purchase_amount": 132.0,
+    "rep": "R02",
+    "date": "2010-10-10"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 101,
+    "purchase_amount": 225.0,
+    "rep": "R05",
+    "date": "2010-09-27"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 8,
+    "purchase_amount": 20.0,
+    "rep": "R03",
+    "date": "2010-09-15"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 116,
+    "purchase_amount": 132.0,
+    "rep": "R01",
+    "date": "2010-09-14"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 150,
+    "purchase_amount": 24.0,
+    "rep": "R05",
+    "date": "2010-10-23"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 113,
+    "purchase_amount": 145.0,
+    "rep": "R01",
+    "date": "2010-10-02"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 102,
+    "purchase_amount": 60.0,
+    "rep": "R05",
+    "date": "2010-11-28"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 26,
+    "purchase_amount": 87.0,
+    "rep": "R05",
+    "date": "2010-10-26"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 50,
+    "purchase_amount": 56.0,
+    "rep": "R01",
+    "date": "2010-10-05"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 157,
+    "purchase_amount": 72.0,
+    "rep": "R05",
+    "date": "2010-10-29"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 105,
+    "purchase_amount": 66.0,
+    "rep": "R01",
+    "date": "2010-12-01"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 108,
+    "purchase_amount": 26.0,
+    "rep": "R01",
+    "date": "2010-10-30"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 137,
+    "purchase_amount": 215.0,
+    "rep": "R04",
+    "date": "2010-10-06"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 60,
+    "purchase_amount": 84.0,
+    "rep": "R03",
+    "date": "2010-10-16"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 36,
+    "purchase_amount": 135.0,
+    "rep": "R02",
+    "date": "2010-11-15"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 41,
+    "purchase_amount": 164.0,
+    "rep": "R03",
+    "date": "2010-10-11"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 89,
+    "purchase_amount": 129.0,
+    "rep": "R04",
+    "date": "2010-11-22"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 40,
+    "purchase_amount": 220.0,
+    "rep": "R03",
+    "date": "2010-10-25"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 36,
+    "purchase_amount": 225.0,
+    "rep": "R02",
+    "date": "2010-10-09"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 74,
+    "purchase_amount": 30.0,
+    "rep": "R02",
+    "date": "2010-11-07"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 75,
+    "purchase_amount": 84.0,
+    "rep": "R02",
+    "date": "2010-09-17"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 84,
+    "purchase_amount": 38.0,
+    "rep": "R04",
+    "date": "2010-12-03"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 49,
+    "purchase_amount": 195.0,
+    "rep": "R03",
+    "date": "2010-09-17"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 104,
+    "purchase_amount": 68.0,
+    "rep": "R04",
+    "date": "2010-11-19"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 108,
+    "purchase_amount": 180.0,
+    "rep": "R02",
+    "date": "2010-09-12"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 124,
+    "purchase_amount": 176.0,
+    "rep": "R02",
+    "date": "2010-10-07"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 156,
+    "purchase_amount": 42.0,
+    "rep": "R05",
+    "date": "2010-11-03"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 112,
+    "purchase_amount": 84.0,
+    "rep": "R03",
+    "date": "2010-10-15"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 93,
+    "purchase_amount": 150.0,
+    "rep": "R01",
+    "date": "2010-09-21"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 64,
+    "purchase_amount": 170.0,
+    "rep": "R02",
+    "date": "2010-10-26"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 70,
+    "purchase_amount": 42.0,
+    "rep": "R04",
+    "date": "2010-11-25"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 64,
+    "purchase_amount": 88.0,
+    "rep": "R05",
+    "date": "2010-12-04"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 23,
+    "purchase_amount": 117.0,
+    "rep": "R03",
+    "date": "2010-10-13"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 81,
+    "purchase_amount": 60.0,
+    "rep": "R04",
+    "date": "2010-10-28"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 76,
+    "purchase_amount": 140.0,
+    "rep": "R05",
+    "date": "2010-11-29"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 36,
+    "purchase_amount": 81.0,
+    "rep": "R04",
+    "date": "2010-10-13"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 131,
+    "purchase_amount": 41.0,
+    "rep": "R03",
+    "date": "2010-11-05"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 107,
+    "purchase_amount": 115.0,
+    "rep": "R02",
+    "date": "2010-11-09"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 116,
+    "purchase_amount": 22.0,
+    "rep": "R02",
+    "date": "2010-10-31"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 53,
+    "purchase_amount": 23.0,
+    "rep": "R03",
+    "date": "2010-11-07"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 60,
+    "purchase_amount": 116.0,
+    "rep": "R05",
+    "date": "2010-10-16"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 23,
+    "purchase_amount": 105.0,
+    "rep": "R01",
+    "date": "2010-11-03"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 27,
+    "purchase_amount": 74.0,
+    "rep": "R03",
+    "date": "2010-09-24"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 66,
+    "purchase_amount": 210.0,
+    "rep": "R02",
+    "date": "2010-11-13"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 31,
+    "purchase_amount": 25.0,
+    "rep": "R01",
+    "date": "2010-12-02"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 75,
+    "purchase_amount": 43.0,
+    "rep": "R01",
+    "date": "2010-12-03"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 74,
+    "purchase_amount": 32.0,
+    "rep": "R02",
+    "date": "2010-11-02"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 20,
+    "purchase_amount": 60.0,
+    "rep": "R01",
+    "date": "2010-09-19"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 85,
+    "purchase_amount": 129.0,
+    "rep": "R05",
+    "date": "2010-09-29"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 15,
+    "purchase_amount": 31.0,
+    "rep": "R02",
+    "date": "2010-09-27"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 64,
+    "purchase_amount": 80.0,
+    "rep": "R02",
+    "date": "2010-12-03"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 21,
+    "purchase_amount": 74.0,
+    "rep": "R04",
+    "date": "2010-11-08"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 133,
+    "purchase_amount": 100.0,
+    "rep": "R01",
+    "date": "2010-10-24"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 95,
+    "purchase_amount": 52.0,
+    "rep": "R03",
+    "date": "2010-10-17"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 66,
+    "purchase_amount": 102.0,
+    "rep": "R02",
+    "date": "2010-09-21"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 55,
+    "purchase_amount": 215.0,
+    "rep": "R01",
+    "date": "2010-11-16"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 158,
+    "purchase_amount": 100.0,
+    "rep": "R03",
+    "date": "2010-09-26"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 105,
+    "purchase_amount": 35.0,
+    "rep": "R03",
+    "date": "2010-09-28"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 104,
+    "purchase_amount": 164.0,
+    "rep": "R01",
+    "date": "2010-09-23"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 135,
+    "purchase_amount": 185.0,
+    "rep": "R02",
+    "date": "2010-09-12"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 123,
+    "purchase_amount": 120.0,
+    "rep": "R01",
+    "date": "2010-11-30"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 84,
+    "purchase_amount": 156.0,
+    "rep": "R05",
+    "date": "2010-09-22"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 65,
+    "purchase_amount": 64.0,
+    "rep": "R02",
+    "date": "2010-09-18"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 123,
+    "purchase_amount": 128.0,
+    "rep": "R03",
+    "date": "2010-09-10"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 17,
+    "purchase_amount": 69.0,
+    "rep": "R03",
+    "date": "2010-09-29"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 24,
+    "purchase_amount": 74.0,
+    "rep": "R03",
+    "date": "2010-11-17"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 98,
+    "purchase_amount": 22.0,
+    "rep": "R02",
+    "date": "2010-11-30"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 69,
+    "purchase_amount": 130.0,
+    "rep": "R01",
+    "date": "2010-09-20"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 62,
+    "purchase_amount": 35.0,
+    "rep": "R01",
+    "date": "2010-10-04"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 89,
+    "purchase_amount": 200.0,
+    "rep": "R05",
+    "date": "2010-10-15"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 133,
+    "purchase_amount": 72.0,
+    "rep": "R01",
+    "date": "2010-10-09"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 72,
+    "purchase_amount": 140.0,
+    "rep": "R04",
+    "date": "2010-10-30"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 14,
+    "purchase_amount": 96.0,
+    "rep": "R02",
+    "date": "2010-12-04"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 128,
+    "purchase_amount": 140.0,
+    "rep": "R03",
+    "date": "2010-11-14"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 91,
+    "purchase_amount": 84.0,
+    "rep": "R02",
+    "date": "2010-12-04"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 47,
+    "purchase_amount": 132.0,
+    "rep": "R05",
+    "date": "2010-11-22"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 99,
+    "purchase_amount": 42.0,
+    "rep": "R04",
+    "date": "2010-11-24"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 109,
+    "purchase_amount": 126.0,
+    "rep": "R02",
+    "date": "2010-12-07"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 88,
+    "purchase_amount": 72.0,
+    "rep": "R03",
+    "date": "2010-11-20"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 165,
+    "purchase_amount": 68.0,
+    "rep": "R02",
+    "date": "2010-11-23"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 159,
+    "purchase_amount": 42.0,
+    "rep": "R04",
+    "date": "2010-11-01"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 55,
+    "purchase_amount": 27.0,
+    "rep": "R04",
+    "date": "2010-10-22"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 6,
+    "purchase_amount": 75.0,
+    "rep": "R05",
+    "date": "2010-11-05"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 125,
+    "purchase_amount": 148.0,
+    "rep": "R02",
+    "date": "2010-10-08"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 25,
+    "purchase_amount": 75.0,
+    "rep": "R05",
+    "date": "2010-12-07"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 110,
+    "purchase_amount": 82.0,
+    "rep": "R01",
+    "date": "2010-11-28"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 62,
+    "purchase_amount": 125.0,
+    "rep": "R01",
+    "date": "2010-10-05"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 35,
+    "purchase_amount": 215.0,
+    "rep": "R04",
+    "date": "2010-12-07"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 155,
+    "purchase_amount": 37.0,
+    "rep": "R04",
+    "date": "2010-09-09"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 151,
+    "purchase_amount": 123.0,
+    "rep": "R04",
+    "date": "2010-09-27"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 134,
+    "purchase_amount": 120.0,
+    "rep": "R03",
+    "date": "2010-09-15"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 51,
+    "purchase_amount": 117.0,
+    "rep": "R04",
+    "date": "2010-11-02"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 52,
+    "purchase_amount": 37.0,
+    "rep": "R02",
+    "date": "2010-09-29"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 146,
+    "purchase_amount": 123.0,
+    "rep": "R03",
+    "date": "2010-11-04"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 96,
+    "purchase_amount": 46.0,
+    "rep": "R02",
+    "date": "2010-11-02"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 55,
+    "purchase_amount": 145.0,
+    "rep": "R01",
+    "date": "2010-11-10"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 76,
+    "purchase_amount": 39.0,
+    "rep": "R04",
+    "date": "2010-10-20"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 94,
+    "purchase_amount": 180.0,
+    "rep": "R02",
+    "date": "2010-10-04"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 73,
+    "purchase_amount": 66.0,
+    "rep": "R02",
+    "date": "2010-11-14"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 40,
+    "purchase_amount": 116.0,
+    "rep": "R05",
+    "date": "2010-10-09"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 59,
+    "purchase_amount": 123.0,
+    "rep": "R05",
+    "date": "2010-11-01"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 61,
+    "purchase_amount": 115.0,
+    "rep": "R03",
+    "date": "2010-10-22"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 104,
+    "purchase_amount": 68.0,
+    "rep": "R03",
+    "date": "2010-11-30"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 133,
+    "purchase_amount": 31.0,
+    "rep": "R03",
+    "date": "2010-09-21"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 80,
+    "purchase_amount": 145.0,
+    "rep": "R04",
+    "date": "2010-10-01"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 148,
+    "purchase_amount": 36.0,
+    "rep": "R03",
+    "date": "2010-11-25"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 101,
+    "purchase_amount": 205.0,
+    "rep": "R02",
+    "date": "2010-09-20"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 98,
+    "purchase_amount": 35.0,
+    "rep": "R04",
+    "date": "2010-11-19"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 67,
+    "purchase_amount": 129.0,
+    "rep": "R01",
+    "date": "2010-12-04"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 30,
+    "purchase_amount": 205.0,
+    "rep": "R03",
+    "date": "2010-11-26"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 40,
+    "purchase_amount": 108.0,
+    "rep": "R04",
+    "date": "2010-09-29"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 107,
+    "purchase_amount": 115.0,
+    "rep": "R03",
+    "date": "2010-09-13"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 93,
+    "purchase_amount": 128.0,
+    "rep": "R03",
+    "date": "2010-11-29"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 81,
+    "purchase_amount": 100.0,
+    "rep": "R02",
+    "date": "2010-12-03"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 56,
+    "purchase_amount": 200.0,
+    "rep": "R04",
+    "date": "2010-11-08"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 63,
+    "purchase_amount": 44.0,
+    "rep": "R05",
+    "date": "2010-11-10"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 95,
+    "purchase_amount": 86.0,
+    "rep": "R03",
+    "date": "2010-09-12"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 31,
+    "purchase_amount": 180.0,
+    "rep": "R01",
+    "date": "2010-10-06"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 106,
+    "purchase_amount": 120.0,
+    "rep": "R03",
+    "date": "2010-11-14"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 81,
+    "purchase_amount": 116.0,
+    "rep": "R03",
+    "date": "2010-09-14"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 114,
+    "purchase_amount": 105.0,
+    "rep": "R03",
+    "date": "2010-10-13"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 104,
+    "purchase_amount": 56.0,
+    "rep": "R04",
+    "date": "2010-09-10"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 122,
+    "purchase_amount": 45.0,
+    "rep": "R03",
+    "date": "2010-12-01"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 34,
+    "purchase_amount": 195.0,
+    "rep": "R02",
+    "date": "2010-11-15"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 73,
+    "purchase_amount": 87.0,
+    "rep": "R05",
+    "date": "2010-09-30"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 25,
+    "purchase_amount": 52.0,
+    "rep": "R01",
+    "date": "2010-09-29"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 19,
+    "purchase_amount": 132.0,
+    "rep": "R03",
+    "date": "2010-10-29"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 92,
+    "purchase_amount": 44.0,
+    "rep": "R01",
+    "date": "2010-11-01"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 25,
+    "purchase_amount": 27.0,
+    "rep": "R01",
+    "date": "2010-09-21"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 135,
+    "purchase_amount": 104.0,
+    "rep": "R04",
+    "date": "2010-11-30"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 64,
+    "purchase_amount": 132.0,
+    "rep": "R03",
+    "date": "2010-10-31"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 41,
+    "purchase_amount": 123.0,
+    "rep": "R03",
+    "date": "2010-11-12"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 94,
+    "purchase_amount": 100.0,
+    "rep": "R02",
+    "date": "2010-10-14"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 21,
+    "purchase_amount": 63.0,
+    "rep": "R02",
+    "date": "2010-09-18"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 70,
+    "purchase_amount": 44.0,
+    "rep": "R04",
+    "date": "2010-12-02"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 111,
+    "purchase_amount": 90.0,
+    "rep": "R01",
+    "date": "2010-10-25"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 91,
+    "purchase_amount": 76.0,
+    "rep": "R04",
+    "date": "2010-11-09"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 139,
+    "purchase_amount": 220.0,
+    "rep": "R01",
+    "date": "2010-12-05"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 44,
+    "purchase_amount": 63.0,
+    "rep": "R03",
+    "date": "2010-11-20"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 119,
+    "purchase_amount": 105.0,
+    "rep": "R01",
+    "date": "2010-11-09"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 91,
+    "purchase_amount": 124.0,
+    "rep": "R03",
+    "date": "2010-09-09"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 154,
+    "purchase_amount": 84.0,
+    "rep": "R01",
+    "date": "2010-11-24"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 117,
+    "purchase_amount": 88.0,
+    "rep": "R04",
+    "date": "2010-10-06"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 33,
+    "purchase_amount": 170.0,
+    "rep": "R03",
+    "date": "2010-10-16"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 144,
+    "purchase_amount": 62.0,
+    "rep": "R03",
+    "date": "2010-10-25"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 117,
+    "purchase_amount": 90.0,
+    "rep": "R01",
+    "date": "2010-10-20"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 110,
+    "purchase_amount": 100.0,
+    "rep": "R05",
+    "date": "2010-11-11"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 103,
+    "purchase_amount": 62.0,
+    "rep": "R05",
+    "date": "2010-09-11"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 115,
+    "purchase_amount": 40.0,
+    "rep": "R03",
+    "date": "2010-09-09"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 137,
+    "purchase_amount": 44.0,
+    "rep": "R04",
+    "date": "2010-09-25"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 143,
+    "purchase_amount": 54.0,
+    "rep": "R04",
+    "date": "2010-10-01"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 115,
+    "purchase_amount": 42.0,
+    "rep": "R01",
+    "date": "2010-09-12"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 101,
+    "purchase_amount": 185.0,
+    "rep": "R04",
+    "date": "2010-10-26"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 63,
+    "purchase_amount": 80.0,
+    "rep": "R04",
+    "date": "2010-10-07"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 89,
+    "purchase_amount": 176.0,
+    "rep": "R04",
+    "date": "2010-11-17"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 50,
+    "purchase_amount": 26.0,
+    "rep": "R02",
+    "date": "2010-11-13"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 81,
+    "purchase_amount": 92.0,
+    "rep": "R02",
+    "date": "2010-10-18"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 115,
+    "purchase_amount": 168.0,
+    "rep": "R04",
+    "date": "2010-10-26"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 88,
+    "purchase_amount": 78.0,
+    "rep": "R04",
+    "date": "2010-10-28"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 45,
+    "purchase_amount": 135.0,
+    "rep": "R05",
+    "date": "2010-12-08"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 110,
+    "purchase_amount": 155.0,
+    "rep": "R02",
+    "date": "2010-12-06"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 117,
+    "purchase_amount": 40.0,
+    "rep": "R04",
+    "date": "2010-11-17"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 43,
+    "purchase_amount": 37.0,
+    "rep": "R01",
+    "date": "2010-11-01"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 54,
+    "purchase_amount": 31.0,
+    "rep": "R01",
+    "date": "2010-11-04"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 158,
+    "purchase_amount": 190.0,
+    "rep": "R01",
+    "date": "2010-11-24"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 127,
+    "purchase_amount": 200.0,
+    "rep": "R01",
+    "date": "2010-11-20"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 132,
+    "purchase_amount": 50.0,
+    "rep": "R03",
+    "date": "2010-12-08"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 51,
+    "purchase_amount": 108.0,
+    "rep": "R02",
+    "date": "2010-09-23"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 106,
+    "purchase_amount": 112.0,
+    "rep": "R04",
+    "date": "2010-09-15"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 52,
+    "purchase_amount": 70.0,
+    "rep": "R01",
+    "date": "2010-11-27"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 70,
+    "purchase_amount": 116.0,
+    "rep": "R03",
+    "date": "2010-12-03"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 107,
+    "purchase_amount": 39.0,
+    "rep": "R03",
+    "date": "2010-10-31"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 130,
+    "purchase_amount": 87.0,
+    "rep": "R02",
+    "date": "2010-09-30"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 48,
+    "purchase_amount": 120.0,
+    "rep": "R01",
+    "date": "2010-10-28"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 49,
+    "purchase_amount": 100.0,
+    "rep": "R02",
+    "date": "2010-12-03"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 35,
+    "purchase_amount": 86.0,
+    "rep": "R01",
+    "date": "2010-11-17"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 121,
+    "purchase_amount": 84.0,
+    "rep": "R05",
+    "date": "2010-11-15"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 117,
+    "purchase_amount": 82.0,
+    "rep": "R01",
+    "date": "2010-11-04"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 78,
+    "purchase_amount": 28.0,
+    "rep": "R04",
+    "date": "2010-09-19"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 49,
+    "purchase_amount": 84.0,
+    "rep": "R03",
+    "date": "2010-10-15"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 59,
+    "purchase_amount": 90.0,
+    "rep": "R03",
+    "date": "2010-10-06"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 71,
+    "purchase_amount": 52.0,
+    "rep": "R03",
+    "date": "2010-09-26"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 141,
+    "purchase_amount": 54.0,
+    "rep": "R01",
+    "date": "2010-12-08"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 73,
+    "purchase_amount": 75.0,
+    "rep": "R02",
+    "date": "2010-10-25"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 125,
+    "purchase_amount": 87.0,
+    "rep": "R05",
+    "date": "2010-09-24"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 133,
+    "purchase_amount": 21.0,
+    "rep": "R01",
+    "date": "2010-09-22"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 90,
+    "purchase_amount": 129.0,
+    "rep": "R05",
+    "date": "2010-11-13"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 111,
+    "purchase_amount": 22.0,
+    "rep": "R04",
+    "date": "2010-09-24"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 80,
+    "purchase_amount": 32.0,
+    "rep": "R03",
+    "date": "2010-10-08"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 159,
+    "purchase_amount": 66.0,
+    "rep": "R02",
+    "date": "2010-10-06"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 102,
+    "purchase_amount": 99.0,
+    "rep": "R04",
+    "date": "2010-09-21"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 144,
+    "purchase_amount": 25.0,
+    "rep": "R02",
+    "date": "2010-12-01"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 123,
+    "purchase_amount": 44.0,
+    "rep": "R05",
+    "date": "2010-11-15"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 48,
+    "purchase_amount": 120.0,
+    "rep": "R01",
+    "date": "2010-11-25"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 39,
+    "purchase_amount": 46.0,
+    "rep": "R02",
+    "date": "2010-09-23"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 80,
+    "purchase_amount": 68.0,
+    "rep": "R05",
+    "date": "2010-10-20"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 88,
+    "purchase_amount": 80.0,
+    "rep": "R04",
+    "date": "2010-11-03"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 28,
+    "purchase_amount": 44.0,
+    "rep": "R05",
+    "date": "2010-10-28"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 132,
+    "purchase_amount": 42.0,
+    "rep": "R04",
+    "date": "2010-11-13"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 103,
+    "purchase_amount": 120.0,
+    "rep": "R03",
+    "date": "2010-09-17"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 108,
+    "purchase_amount": 56.0,
+    "rep": "R01",
+    "date": "2010-10-01"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 100,
+    "purchase_amount": 69.0,
+    "rep": "R04",
+    "date": "2010-10-30"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 119,
+    "purchase_amount": 116.0,
+    "rep": "R03",
+    "date": "2010-11-16"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 63,
+    "purchase_amount": 70.0,
+    "rep": "R02",
+    "date": "2010-10-12"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 44,
+    "purchase_amount": 33.0,
+    "rep": "R01",
+    "date": "2010-09-13"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 99,
+    "purchase_amount": 180.0,
+    "rep": "R01",
+    "date": "2010-10-24"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 126,
+    "purchase_amount": 190.0,
+    "rep": "R02",
+    "date": "2010-10-05"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 44,
+    "purchase_amount": 170.0,
+    "rep": "R05",
+    "date": "2010-10-03"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 74,
+    "purchase_amount": 37.0,
+    "rep": "R02",
+    "date": "2010-11-25"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 96,
+    "purchase_amount": 46.0,
+    "rep": "R05",
+    "date": "2010-10-13"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 147,
+    "purchase_amount": 82.0,
+    "rep": "R05",
+    "date": "2010-09-23"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 39,
+    "purchase_amount": 176.0,
+    "rep": "R05",
+    "date": "2010-10-14"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 101,
+    "purchase_amount": 132.0,
+    "rep": "R01",
+    "date": "2010-11-04"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 147,
+    "purchase_amount": 115.0,
+    "rep": "R03",
+    "date": "2010-09-25"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 135,
+    "purchase_amount": 60.0,
+    "rep": "R04",
+    "date": "2010-10-31"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 138,
+    "purchase_amount": 29.0,
+    "rep": "R02",
+    "date": "2010-09-21"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 85,
+    "purchase_amount": 38.0,
+    "rep": "R04",
+    "date": "2010-10-21"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 37,
+    "purchase_amount": 54.0,
+    "rep": "R04",
+    "date": "2010-12-01"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 136,
+    "purchase_amount": 37.0,
+    "rep": "R04",
+    "date": "2010-12-04"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 31,
+    "purchase_amount": 172.0,
+    "rep": "R03",
+    "date": "2010-10-02"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 102,
+    "purchase_amount": 76.0,
+    "rep": "R05",
+    "date": "2010-09-22"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 147,
+    "purchase_amount": 140.0,
+    "rep": "R03",
+    "date": "2010-10-08"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 123,
+    "purchase_amount": 68.0,
+    "rep": "R03",
+    "date": "2010-09-17"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 60,
+    "purchase_amount": 66.0,
+    "rep": "R04",
+    "date": "2010-11-30"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 60,
+    "purchase_amount": 37.0,
+    "rep": "R05",
+    "date": "2010-12-04"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 74,
+    "purchase_amount": 117.0,
+    "rep": "R05",
+    "date": "2010-10-24"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 142,
+    "purchase_amount": 116.0,
+    "rep": "R05",
+    "date": "2010-10-15"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 111,
+    "purchase_amount": 210.0,
+    "rep": "R03",
+    "date": "2010-11-27"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 25,
+    "purchase_amount": 84.0,
+    "rep": "R01",
+    "date": "2010-11-07"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 103,
+    "purchase_amount": 102.0,
+    "rep": "R04",
+    "date": "2010-10-07"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 141,
+    "purchase_amount": 100.0,
+    "rep": "R01",
+    "date": "2010-09-12"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 75,
+    "purchase_amount": 38.0,
+    "rep": "R03",
+    "date": "2010-11-11"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 101,
+    "purchase_amount": 84.0,
+    "rep": "R02",
+    "date": "2010-11-29"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 76,
+    "purchase_amount": 164.0,
+    "rep": "R03",
+    "date": "2010-11-01"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 104,
+    "purchase_amount": 136.0,
+    "rep": "R03",
+    "date": "2010-09-30"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 55,
+    "purchase_amount": 112.0,
+    "rep": "R02",
+    "date": "2010-12-08"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 10,
+    "purchase_amount": 72.0,
+    "rep": "R03",
+    "date": "2010-09-23"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 78,
+    "purchase_amount": 205.0,
+    "rep": "R04",
+    "date": "2010-09-13"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 153,
+    "purchase_amount": 102.0,
+    "rep": "R01",
+    "date": "2010-11-11"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 102,
+    "purchase_amount": 70.0,
+    "rep": "R05",
+    "date": "2010-11-25"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 107,
+    "purchase_amount": 78.0,
+    "rep": "R04",
+    "date": "2010-10-01"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 73,
+    "purchase_amount": 87.0,
+    "rep": "R02",
+    "date": "2010-11-25"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 144,
+    "purchase_amount": 102.0,
+    "rep": "R01",
+    "date": "2010-09-17"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 98,
+    "purchase_amount": 130.0,
+    "rep": "R03",
+    "date": "2010-09-25"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 88,
+    "purchase_amount": 110.0,
+    "rep": "R01",
+    "date": "2010-11-06"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 52,
+    "purchase_amount": 42.0,
+    "rep": "R01",
+    "date": "2010-10-19"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 111,
+    "purchase_amount": 126.0,
+    "rep": "R04",
+    "date": "2010-11-03"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 131,
+    "purchase_amount": 76.0,
+    "rep": "R02",
+    "date": "2010-09-23"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 31,
+    "purchase_amount": 84.0,
+    "rep": "R05",
+    "date": "2010-09-19"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 49,
+    "purchase_amount": 39.0,
+    "rep": "R01",
+    "date": "2010-10-28"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 65,
+    "purchase_amount": 70.0,
+    "rep": "R05",
+    "date": "2010-12-03"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 122,
+    "purchase_amount": 78.0,
+    "rep": "R04",
+    "date": "2010-11-08"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 52,
+    "purchase_amount": 190.0,
+    "rep": "R03",
+    "date": "2010-11-05"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 57,
+    "purchase_amount": 120.0,
+    "rep": "R05",
+    "date": "2010-12-05"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 80,
+    "purchase_amount": 88.0,
+    "rep": "R01",
+    "date": "2010-09-22"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 172,
+    "purchase_amount": 27.0,
+    "rep": "R01",
+    "date": "2010-12-05"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 31,
+    "purchase_amount": 160.0,
+    "rep": "R03",
+    "date": "2010-09-13"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 85,
+    "purchase_amount": 215.0,
+    "rep": "R03",
+    "date": "2010-10-08"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 37,
+    "purchase_amount": 124.0,
+    "rep": "R01",
+    "date": "2010-10-07"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 72,
+    "purchase_amount": 76.0,
+    "rep": "R05",
+    "date": "2010-09-23"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 106,
+    "purchase_amount": 105.0,
+    "rep": "R04",
+    "date": "2010-11-23"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 41,
+    "purchase_amount": 112.0,
+    "rep": "R04",
+    "date": "2010-11-12"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 50,
+    "purchase_amount": 40.0,
+    "rep": "R05",
+    "date": "2010-09-24"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 75,
+    "purchase_amount": 78.0,
+    "rep": "R05",
+    "date": "2010-11-15"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 109,
+    "purchase_amount": 140.0,
+    "rep": "R03",
+    "date": "2010-09-21"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 105,
+    "purchase_amount": 176.0,
+    "rep": "R04",
+    "date": "2010-09-10"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 138,
+    "purchase_amount": 195.0,
+    "rep": "R03",
+    "date": "2010-11-10"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 107,
+    "purchase_amount": 20.0,
+    "rep": "R04",
+    "date": "2010-10-31"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 67,
+    "purchase_amount": 38.0,
+    "rep": "R01",
+    "date": "2010-11-16"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 69,
+    "purchase_amount": 56.0,
+    "rep": "R02",
+    "date": "2010-12-05"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 56,
+    "purchase_amount": 27.0,
+    "rep": "R04",
+    "date": "2010-10-05"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 60,
+    "purchase_amount": 60.0,
+    "rep": "R01",
+    "date": "2010-11-14"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 68,
+    "purchase_amount": 41.0,
+    "rep": "R04",
+    "date": "2010-09-28"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 154,
+    "purchase_amount": 164.0,
+    "rep": "R01",
+    "date": "2010-09-12"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 45,
+    "purchase_amount": 84.0,
+    "rep": "R03",
+    "date": "2010-11-15"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 52,
+    "purchase_amount": 42.0,
+    "rep": "R04",
+    "date": "2010-10-28"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 137,
+    "purchase_amount": 84.0,
+    "rep": "R01",
+    "date": "2010-10-17"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 162,
+    "purchase_amount": 82.0,
+    "rep": "R05",
+    "date": "2010-11-01"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 33,
+    "purchase_amount": 27.0,
+    "rep": "R01",
+    "date": "2010-10-27"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 76,
+    "purchase_amount": 84.0,
+    "rep": "R03",
+    "date": "2010-11-18"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 144,
+    "purchase_amount": 164.0,
+    "rep": "R03",
+    "date": "2010-10-26"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 58,
+    "purchase_amount": 38.0,
+    "rep": "R03",
+    "date": "2010-10-09"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 121,
+    "purchase_amount": 20.0,
+    "rep": "R02",
+    "date": "2010-11-10"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 114,
+    "purchase_amount": 114.0,
+    "rep": "R04",
+    "date": "2010-09-19"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 87,
+    "purchase_amount": 125.0,
+    "rep": "R02",
+    "date": "2010-11-29"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 128,
+    "purchase_amount": 140.0,
+    "rep": "R02",
+    "date": "2010-11-06"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 33,
+    "purchase_amount": 92.0,
+    "rep": "R01",
+    "date": "2010-11-18"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 123,
+    "purchase_amount": 80.0,
+    "rep": "R04",
+    "date": "2010-10-14"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 128,
+    "purchase_amount": 116.0,
+    "rep": "R04",
+    "date": "2010-10-01"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 109,
+    "purchase_amount": 132.0,
+    "rep": "R05",
+    "date": "2010-10-06"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 168,
+    "purchase_amount": 72.0,
+    "rep": "R01",
+    "date": "2010-10-11"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 110,
+    "purchase_amount": 104.0,
+    "rep": "R02",
+    "date": "2010-11-27"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 164,
+    "purchase_amount": 36.0,
+    "rep": "R05",
+    "date": "2010-10-12"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 139,
+    "purchase_amount": 81.0,
+    "rep": "R04",
+    "date": "2010-11-13"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 163,
+    "purchase_amount": 76.0,
+    "rep": "R02",
+    "date": "2010-09-17"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 124,
+    "purchase_amount": 54.0,
+    "rep": "R02",
+    "date": "2010-09-30"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 73,
+    "purchase_amount": 44.0,
+    "rep": "R04",
+    "date": "2010-11-12"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 97,
+    "purchase_amount": 105.0,
+    "rep": "R02",
+    "date": "2010-10-20"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 71,
+    "purchase_amount": 170.0,
+    "rep": "R05",
+    "date": "2010-11-03"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 132,
+    "purchase_amount": 195.0,
+    "rep": "R04",
+    "date": "2010-09-13"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 66,
+    "purchase_amount": 120.0,
+    "rep": "R04",
+    "date": "2010-11-20"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 61,
+    "purchase_amount": 93.0,
+    "rep": "R01",
+    "date": "2010-11-19"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 52,
+    "purchase_amount": 66.0,
+    "rep": "R02",
+    "date": "2010-12-01"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 80,
+    "purchase_amount": 104.0,
+    "rep": "R03",
+    "date": "2010-12-03"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 89,
+    "purchase_amount": 164.0,
+    "rep": "R04",
+    "date": "2010-10-25"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 63,
+    "purchase_amount": 29.0,
+    "rep": "R01",
+    "date": "2010-10-18"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 64,
+    "purchase_amount": 111.0,
+    "rep": "R03",
+    "date": "2010-10-12"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 49,
+    "purchase_amount": 105.0,
+    "rep": "R04",
+    "date": "2010-10-21"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 81,
+    "purchase_amount": 21.0,
+    "rep": "R05",
+    "date": "2010-11-13"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 103,
+    "purchase_amount": 117.0,
+    "rep": "R03",
+    "date": "2010-09-16"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 109,
+    "purchase_amount": 68.0,
+    "rep": "R03",
+    "date": "2010-11-09"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 151,
+    "purchase_amount": 63.0,
+    "rep": "R02",
+    "date": "2010-12-02"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 120,
+    "purchase_amount": 58.0,
+    "rep": "R05",
+    "date": "2010-11-01"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 18,
+    "purchase_amount": 40.0,
+    "rep": "R02",
+    "date": "2010-11-09"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 128,
+    "purchase_amount": 22.0,
+    "rep": "R02",
+    "date": "2010-11-12"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 115,
+    "purchase_amount": 40.0,
+    "rep": "R03",
+    "date": "2010-11-15"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 134,
+    "purchase_amount": 160.0,
+    "rep": "R04",
+    "date": "2010-10-31"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 128,
+    "purchase_amount": 135.0,
+    "rep": "R01",
+    "date": "2010-10-30"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 73,
+    "purchase_amount": 100.0,
+    "rep": "R04",
+    "date": "2010-10-12"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 72,
+    "purchase_amount": 70.0,
+    "rep": "R01",
+    "date": "2010-11-14"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 165,
+    "purchase_amount": 82.0,
+    "rep": "R03",
+    "date": "2010-11-07"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 75,
+    "purchase_amount": 220.0,
+    "rep": "R03",
+    "date": "2010-12-04"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 56,
+    "purchase_amount": 152.0,
+    "rep": "R02",
+    "date": "2010-09-17"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 144,
+    "purchase_amount": 195.0,
+    "rep": "R04",
+    "date": "2010-10-30"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 111,
+    "purchase_amount": 120.0,
+    "rep": "R04",
+    "date": "2010-09-11"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 74,
+    "purchase_amount": 26.0,
+    "rep": "R03",
+    "date": "2010-11-10"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 146,
+    "purchase_amount": 160.0,
+    "rep": "R01",
+    "date": "2010-12-04"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 69,
+    "purchase_amount": 20.0,
+    "rep": "R02",
+    "date": "2010-10-09"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 155,
+    "purchase_amount": 135.0,
+    "rep": "R05",
+    "date": "2010-10-11"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 108,
+    "purchase_amount": 80.0,
+    "rep": "R02",
+    "date": "2010-09-27"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 15,
+    "purchase_amount": 120.0,
+    "rep": "R04",
+    "date": "2010-10-24"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 130,
+    "purchase_amount": 60.0,
+    "rep": "R02",
+    "date": "2010-10-15"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 116,
+    "purchase_amount": 44.0,
+    "rep": "R04",
+    "date": "2010-12-08"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 100,
+    "purchase_amount": 45.0,
+    "rep": "R02",
+    "date": "2010-12-07"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 30,
+    "purchase_amount": 210.0,
+    "rep": "R05",
+    "date": "2010-11-25"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 117,
+    "purchase_amount": 90.0,
+    "rep": "R03",
+    "date": "2010-09-19"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 104,
+    "purchase_amount": 66.0,
+    "rep": "R04",
+    "date": "2010-11-29"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 38,
+    "purchase_amount": 110.0,
+    "rep": "R05",
+    "date": "2010-10-01"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 70,
+    "purchase_amount": 210.0,
+    "rep": "R02",
+    "date": "2010-10-21"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 18,
+    "purchase_amount": 22.0,
+    "rep": "R01",
+    "date": "2010-11-26"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 51,
+    "purchase_amount": 111.0,
+    "rep": "R05",
+    "date": "2010-11-17"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 131,
+    "purchase_amount": 92.0,
+    "rep": "R01",
+    "date": "2010-10-01"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 63,
+    "purchase_amount": 27.0,
+    "rep": "R03",
+    "date": "2010-10-20"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 103,
+    "purchase_amount": 200.0,
+    "rep": "R02",
+    "date": "2010-10-09"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 111,
+    "purchase_amount": 99.0,
+    "rep": "R03",
+    "date": "2010-09-10"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 81,
+    "purchase_amount": 123.0,
+    "rep": "R05",
+    "date": "2010-09-29"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 93,
+    "purchase_amount": 170.0,
+    "rep": "R04",
+    "date": "2010-10-11"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 113,
+    "purchase_amount": 40.0,
+    "rep": "R05",
+    "date": "2010-09-15"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 58,
+    "purchase_amount": 90.0,
+    "rep": "R02",
+    "date": "2010-10-01"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 95,
+    "purchase_amount": 23.0,
+    "rep": "R04",
+    "date": "2010-09-20"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 129,
+    "purchase_amount": 93.0,
+    "rep": "R01",
+    "date": "2010-09-18"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 50,
+    "purchase_amount": 124.0,
+    "rep": "R01",
+    "date": "2010-10-10"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 120,
+    "purchase_amount": 38.0,
+    "rep": "R05",
+    "date": "2010-12-06"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 66,
+    "purchase_amount": 32.0,
+    "rep": "R02",
+    "date": "2010-10-07"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 94,
+    "purchase_amount": 220.0,
+    "rep": "R02",
+    "date": "2010-10-13"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 108,
+    "purchase_amount": 66.0,
+    "rep": "R01",
+    "date": "2010-11-07"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 36,
+    "purchase_amount": 152.0,
+    "rep": "R03",
+    "date": "2010-11-12"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 79,
+    "purchase_amount": 125.0,
+    "rep": "R03",
+    "date": "2010-10-13"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 142,
+    "purchase_amount": 37.0,
+    "rep": "R02",
+    "date": "2010-09-14"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 108,
+    "purchase_amount": 180.0,
+    "rep": "R05",
+    "date": "2010-10-06"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 135,
+    "purchase_amount": 92.0,
+    "rep": "R04",
+    "date": "2010-12-02"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 120,
+    "purchase_amount": 68.0,
+    "rep": "R03",
+    "date": "2010-11-27"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 96,
+    "purchase_amount": 195.0,
+    "rep": "R05",
+    "date": "2010-11-15"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 144,
+    "purchase_amount": 124.0,
+    "rep": "R03",
+    "date": "2010-09-10"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 74,
+    "purchase_amount": 75.0,
+    "rep": "R04",
+    "date": "2010-11-29"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 76,
+    "purchase_amount": 108.0,
+    "rep": "R03",
+    "date": "2010-11-22"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 110,
+    "purchase_amount": 90.0,
+    "rep": "R05",
+    "date": "2010-09-29"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 52,
+    "purchase_amount": 88.0,
+    "rep": "R04",
+    "date": "2010-11-15"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 71,
+    "purchase_amount": 50.0,
+    "rep": "R05",
+    "date": "2010-12-01"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 12,
+    "purchase_amount": 117.0,
+    "rep": "R03",
+    "date": "2010-11-14"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 75,
+    "purchase_amount": 120.0,
+    "rep": "R03",
+    "date": "2010-09-22"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 78,
+    "purchase_amount": 23.0,
+    "rep": "R01",
+    "date": "2010-10-26"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 59,
+    "purchase_amount": 24.0,
+    "rep": "R05",
+    "date": "2010-11-15"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 103,
+    "purchase_amount": 44.0,
+    "rep": "R05",
+    "date": "2010-10-26"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 124,
+    "purchase_amount": 132.0,
+    "rep": "R05",
+    "date": "2010-11-03"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 53,
+    "purchase_amount": 130.0,
+    "rep": "R01",
+    "date": "2010-11-20"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 97,
+    "purchase_amount": 45.0,
+    "rep": "R02",
+    "date": "2010-11-16"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 76,
+    "purchase_amount": 110.0,
+    "rep": "R02",
+    "date": "2010-09-26"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 71,
+    "purchase_amount": 135.0,
+    "rep": "R04",
+    "date": "2010-10-09"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 126,
+    "purchase_amount": 52.0,
+    "rep": "R02",
+    "date": "2010-11-28"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 64,
+    "purchase_amount": 112.0,
+    "rep": "R04",
+    "date": "2010-10-09"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 152,
+    "purchase_amount": 88.0,
+    "rep": "R04",
+    "date": "2010-10-28"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 143,
+    "purchase_amount": 20.0,
+    "rep": "R03",
+    "date": "2010-10-11"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 61,
+    "purchase_amount": 132.0,
+    "rep": "R01",
+    "date": "2010-11-09"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 84,
+    "purchase_amount": 72.0,
+    "rep": "R02",
+    "date": "2010-09-19"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 96,
+    "purchase_amount": 36.0,
+    "rep": "R04",
+    "date": "2010-10-03"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 127,
+    "purchase_amount": 112.0,
+    "rep": "R02",
+    "date": "2010-11-16"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 43,
+    "purchase_amount": 168.0,
+    "rep": "R05",
+    "date": "2010-10-18"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 64,
+    "purchase_amount": 66.0,
+    "rep": "R03",
+    "date": "2010-09-21"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 106,
+    "purchase_amount": 58.0,
+    "rep": "R05",
+    "date": "2010-09-17"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 100,
+    "purchase_amount": 24.0,
+    "rep": "R05",
+    "date": "2010-10-25"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 67,
+    "purchase_amount": 96.0,
+    "rep": "R05",
+    "date": "2010-10-27"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 119,
+    "purchase_amount": 96.0,
+    "rep": "R05",
+    "date": "2010-10-14"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 159,
+    "purchase_amount": 63.0,
+    "rep": "R02",
+    "date": "2010-11-23"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 61,
+    "purchase_amount": 117.0,
+    "rep": "R01",
+    "date": "2010-12-08"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 131,
+    "purchase_amount": 75.0,
+    "rep": "R05",
+    "date": "2010-10-31"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 113,
+    "purchase_amount": 46.0,
+    "rep": "R04",
+    "date": "2010-10-26"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 124,
+    "purchase_amount": 46.0,
+    "rep": "R05",
+    "date": "2010-10-06"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 29,
+    "purchase_amount": 80.0,
+    "rep": "R04",
+    "date": "2010-11-29"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 67,
+    "purchase_amount": 87.0,
+    "rep": "R01",
+    "date": "2010-11-10"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 108,
+    "purchase_amount": 190.0,
+    "rep": "R02",
+    "date": "2010-12-08"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 111,
+    "purchase_amount": 63.0,
+    "rep": "R02",
+    "date": "2010-10-23"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 156,
+    "purchase_amount": 81.0,
+    "rep": "R04",
+    "date": "2010-09-09"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 156,
+    "purchase_amount": 64.0,
+    "rep": "R03",
+    "date": "2010-09-18"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 8,
+    "purchase_amount": 31.0,
+    "rep": "R02",
+    "date": "2010-11-21"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 126,
+    "purchase_amount": 44.0,
+    "rep": "R02",
+    "date": "2010-09-23"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 124,
+    "purchase_amount": 48.0,
+    "rep": "R01",
+    "date": "2010-10-30"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 96,
+    "purchase_amount": 96.0,
+    "rep": "R04",
+    "date": "2010-10-21"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 109,
+    "purchase_amount": 52.0,
+    "rep": "R03",
+    "date": "2010-11-24"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 125,
+    "purchase_amount": 116.0,
+    "rep": "R02",
+    "date": "2010-09-15"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 107,
+    "purchase_amount": 60.0,
+    "rep": "R03",
+    "date": "2010-09-30"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 79,
+    "purchase_amount": 215.0,
+    "rep": "R05",
+    "date": "2010-10-19"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 96,
+    "purchase_amount": 42.0,
+    "rep": "R05",
+    "date": "2010-09-16"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 110,
+    "purchase_amount": 180.0,
+    "rep": "R03",
+    "date": "2010-11-03"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 78,
+    "purchase_amount": 135.0,
+    "rep": "R04",
+    "date": "2010-10-22"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 58,
+    "purchase_amount": 96.0,
+    "rep": "R03",
+    "date": "2010-09-26"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 45,
+    "purchase_amount": 92.0,
+    "rep": "R01",
+    "date": "2010-11-05"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 107,
+    "purchase_amount": 38.0,
+    "rep": "R02",
+    "date": "2010-11-07"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 143,
+    "purchase_amount": 78.0,
+    "rep": "R02",
+    "date": "2010-11-02"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 96,
+    "purchase_amount": 80.0,
+    "rep": "R05",
+    "date": "2010-09-09"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 82,
+    "purchase_amount": 99.0,
+    "rep": "R02",
+    "date": "2010-11-20"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 136,
+    "purchase_amount": 36.0,
+    "rep": "R05",
+    "date": "2010-10-28"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 94,
+    "purchase_amount": 69.0,
+    "rep": "R01",
+    "date": "2010-11-25"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 134,
+    "purchase_amount": 117.0,
+    "rep": "R03",
+    "date": "2010-10-28"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 70,
+    "purchase_amount": 29.0,
+    "rep": "R02",
+    "date": "2010-11-07"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 19,
+    "purchase_amount": 58.0,
+    "rep": "R03",
+    "date": "2010-10-25"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 94,
+    "purchase_amount": 140.0,
+    "rep": "R05",
+    "date": "2010-09-29"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 86,
+    "purchase_amount": 92.0,
+    "rep": "R05",
+    "date": "2010-11-08"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 131,
+    "purchase_amount": 205.0,
+    "rep": "R03",
+    "date": "2010-11-15"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 54,
+    "purchase_amount": 176.0,
+    "rep": "R03",
+    "date": "2010-10-17"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 60,
+    "purchase_amount": 135.0,
+    "rep": "R05",
+    "date": "2010-11-13"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 120,
+    "purchase_amount": 140.0,
+    "rep": "R02",
+    "date": "2010-09-20"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 41,
+    "purchase_amount": 42.0,
+    "rep": "R02",
+    "date": "2010-12-03"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 78,
+    "purchase_amount": 74.0,
+    "rep": "R03",
+    "date": "2010-11-24"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 84,
+    "purchase_amount": 54.0,
+    "rep": "R04",
+    "date": "2010-09-16"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 72,
+    "purchase_amount": 41.0,
+    "rep": "R05",
+    "date": "2010-12-01"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 124,
+    "purchase_amount": 29.0,
+    "rep": "R03",
+    "date": "2010-11-19"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 138,
+    "purchase_amount": 155.0,
+    "rep": "R04",
+    "date": "2010-11-23"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 68,
+    "purchase_amount": 24.0,
+    "rep": "R02",
+    "date": "2010-10-17"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 155,
+    "purchase_amount": 72.0,
+    "rep": "R03",
+    "date": "2010-09-21"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 166,
+    "purchase_amount": 29.0,
+    "rep": "R04",
+    "date": "2010-11-04"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 31,
+    "purchase_amount": 105.0,
+    "rep": "R03",
+    "date": "2010-11-16"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 110,
+    "purchase_amount": 88.0,
+    "rep": "R02",
+    "date": "2010-09-26"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 126,
+    "purchase_amount": 50.0,
+    "rep": "R04",
+    "date": "2010-09-13"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 101,
+    "purchase_amount": 125.0,
+    "rep": "R02",
+    "date": "2010-10-26"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 88,
+    "purchase_amount": 100.0,
+    "rep": "R02",
+    "date": "2010-10-01"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 78,
+    "purchase_amount": 84.0,
+    "rep": "R04",
+    "date": "2010-10-23"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 86,
+    "purchase_amount": 90.0,
+    "rep": "R03",
+    "date": "2010-11-15"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 142,
+    "purchase_amount": 40.0,
+    "rep": "R05",
+    "date": "2010-09-22"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 94,
+    "purchase_amount": 120.0,
+    "rep": "R03",
+    "date": "2010-10-02"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 108,
+    "purchase_amount": 44.0,
+    "rep": "R05",
+    "date": "2010-12-02"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 133,
+    "purchase_amount": 40.0,
+    "rep": "R03",
+    "date": "2010-12-04"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 97,
+    "purchase_amount": 31.0,
+    "rep": "R01",
+    "date": "2010-10-12"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 150,
+    "purchase_amount": 108.0,
+    "rep": "R01",
+    "date": "2010-10-14"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 77,
+    "purchase_amount": 176.0,
+    "rep": "R02",
+    "date": "2010-12-07"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 150,
+    "purchase_amount": 70.0,
+    "rep": "R03",
+    "date": "2010-10-26"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 103,
+    "purchase_amount": 78.0,
+    "rep": "R03",
+    "date": "2010-11-03"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 126,
+    "purchase_amount": 80.0,
+    "rep": "R04",
+    "date": "2010-09-30"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 18,
+    "purchase_amount": 96.0,
+    "rep": "R01",
+    "date": "2010-09-29"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 114,
+    "purchase_amount": 135.0,
+    "rep": "R03",
+    "date": "2010-12-08"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 73,
+    "purchase_amount": 180.0,
+    "rep": "R02",
+    "date": "2010-12-05"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 132,
+    "purchase_amount": 140.0,
+    "rep": "R01",
+    "date": "2010-09-14"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 143,
+    "purchase_amount": 58.0,
+    "rep": "R04",
+    "date": "2010-10-21"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 41,
+    "purchase_amount": 140.0,
+    "rep": "R05",
+    "date": "2010-10-28"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 32,
+    "purchase_amount": 42.0,
+    "rep": "R02",
+    "date": "2010-10-01"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 50,
+    "purchase_amount": 64.0,
+    "rep": "R01",
+    "date": "2010-09-26"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 119,
+    "purchase_amount": 111.0,
+    "rep": "R04",
+    "date": "2010-10-25"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 69,
+    "purchase_amount": 99.0,
+    "rep": "R05",
+    "date": "2010-12-03"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 56,
+    "purchase_amount": 225.0,
+    "rep": "R02",
+    "date": "2010-11-16"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 54,
+    "purchase_amount": 120.0,
+    "rep": "R04",
+    "date": "2010-09-16"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 107,
+    "purchase_amount": 78.0,
+    "rep": "R05",
+    "date": "2010-10-15"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 108,
+    "purchase_amount": 68.0,
+    "rep": "R03",
+    "date": "2010-11-10"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 118,
+    "purchase_amount": 56.0,
+    "rep": "R01",
+    "date": "2010-10-08"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 147,
+    "purchase_amount": 68.0,
+    "rep": "R02",
+    "date": "2010-11-20"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 149,
+    "purchase_amount": 130.0,
+    "rep": "R01",
+    "date": "2010-09-18"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 67,
+    "purchase_amount": 105.0,
+    "rep": "R01",
+    "date": "2010-11-03"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 43,
+    "purchase_amount": 84.0,
+    "rep": "R02",
+    "date": "2010-09-11"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 90,
+    "purchase_amount": 84.0,
+    "rep": "R03",
+    "date": "2010-12-01"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 124,
+    "purchase_amount": 42.0,
+    "rep": "R03",
+    "date": "2010-10-01"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 56,
+    "purchase_amount": 96.0,
+    "rep": "R03",
+    "date": "2010-11-29"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 89,
+    "purchase_amount": 81.0,
+    "rep": "R05",
+    "date": "2010-11-09"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 57,
+    "purchase_amount": 48.0,
+    "rep": "R04",
+    "date": "2010-11-03"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 64,
+    "purchase_amount": 185.0,
+    "rep": "R01",
+    "date": "2010-10-12"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 63,
+    "purchase_amount": 172.0,
+    "rep": "R05",
+    "date": "2010-10-23"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 72,
+    "purchase_amount": 20.0,
+    "rep": "R01",
+    "date": "2010-10-01"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 94,
+    "purchase_amount": 120.0,
+    "rep": "R03",
+    "date": "2010-09-29"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 173,
+    "purchase_amount": 160.0,
+    "rep": "R01",
+    "date": "2010-10-10"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 69,
+    "purchase_amount": 40.0,
+    "rep": "R01",
+    "date": "2010-12-03"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 69,
+    "purchase_amount": 36.0,
+    "rep": "R03",
+    "date": "2010-09-16"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 139,
+    "purchase_amount": 48.0,
+    "rep": "R02",
+    "date": "2010-11-13"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 72,
+    "purchase_amount": 108.0,
+    "rep": "R01",
+    "date": "2010-11-06"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 81,
+    "purchase_amount": 117.0,
+    "rep": "R02",
+    "date": "2010-09-14"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 90,
+    "purchase_amount": 84.0,
+    "rep": "R04",
+    "date": "2010-11-26"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 66,
+    "purchase_amount": 136.0,
+    "rep": "R03",
+    "date": "2010-11-17"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 103,
+    "purchase_amount": 160.0,
+    "rep": "R03",
+    "date": "2010-11-19"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 93,
+    "purchase_amount": 45.0,
+    "rep": "R01",
+    "date": "2010-12-05"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 43,
+    "purchase_amount": 87.0,
+    "rep": "R01",
+    "date": "2010-12-05"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 125,
+    "purchase_amount": 82.0,
+    "rep": "R01",
+    "date": "2010-10-25"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 109,
+    "purchase_amount": 180.0,
+    "rep": "R01",
+    "date": "2010-09-30"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 37,
+    "purchase_amount": 117.0,
+    "rep": "R05",
+    "date": "2010-10-08"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 82,
+    "purchase_amount": 130.0,
+    "rep": "R02",
+    "date": "2010-11-14"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 76,
+    "purchase_amount": 80.0,
+    "rep": "R03",
+    "date": "2010-11-14"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 59,
+    "purchase_amount": 152.0,
+    "rep": "R03",
+    "date": "2010-09-24"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 171,
+    "purchase_amount": 84.0,
+    "rep": "R05",
+    "date": "2010-10-20"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 137,
+    "purchase_amount": 45.0,
+    "rep": "R05",
+    "date": "2010-10-19"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 23,
+    "purchase_amount": 24.0,
+    "rep": "R05",
+    "date": "2010-11-05"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 105,
+    "purchase_amount": 185.0,
+    "rep": "R01",
+    "date": "2010-10-23"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 120,
+    "purchase_amount": 195.0,
+    "rep": "R05",
+    "date": "2010-11-27"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 127,
+    "purchase_amount": 165.0,
+    "rep": "R03",
+    "date": "2010-10-26"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 70,
+    "purchase_amount": 50.0,
+    "rep": "R03",
+    "date": "2010-09-29"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 61,
+    "purchase_amount": 82.0,
+    "rep": "R05",
+    "date": "2010-10-11"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 87,
+    "purchase_amount": 23.0,
+    "rep": "R01",
+    "date": "2010-09-19"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 96,
+    "purchase_amount": 60.0,
+    "rep": "R04",
+    "date": "2010-09-25"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 18,
+    "purchase_amount": 225.0,
+    "rep": "R03",
+    "date": "2010-10-24"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 55,
+    "purchase_amount": 80.0,
+    "rep": "R01",
+    "date": "2010-11-25"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 90,
+    "purchase_amount": 48.0,
+    "rep": "R02",
+    "date": "2010-12-07"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 134,
+    "purchase_amount": 35.0,
+    "rep": "R05",
+    "date": "2010-09-10"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 80,
+    "purchase_amount": 128.0,
+    "rep": "R01",
+    "date": "2010-11-05"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 87,
+    "purchase_amount": 42.0,
+    "rep": "R02",
+    "date": "2010-10-10"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 117,
+    "purchase_amount": 120.0,
+    "rep": "R01",
+    "date": "2010-10-18"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 55,
+    "purchase_amount": 25.0,
+    "rep": "R02",
+    "date": "2010-11-12"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 131,
+    "purchase_amount": 69.0,
+    "rep": "R05",
+    "date": "2010-12-04"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 40,
+    "purchase_amount": 31.0,
+    "rep": "R01",
+    "date": "2010-10-26"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 77,
+    "purchase_amount": 78.0,
+    "rep": "R02",
+    "date": "2010-10-24"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 30,
+    "purchase_amount": 38.0,
+    "rep": "R03",
+    "date": "2010-09-24"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 96,
+    "purchase_amount": 215.0,
+    "rep": "R03",
+    "date": "2010-10-13"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 109,
+    "purchase_amount": 44.0,
+    "rep": "R05",
+    "date": "2010-09-23"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 142,
+    "purchase_amount": 44.0,
+    "rep": "R05",
+    "date": "2010-10-02"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 56,
+    "purchase_amount": 205.0,
+    "rep": "R03",
+    "date": "2010-10-25"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 87,
+    "purchase_amount": 27.0,
+    "rep": "R04",
+    "date": "2010-11-17"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 100,
+    "purchase_amount": 150.0,
+    "rep": "R04",
+    "date": "2010-11-22"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 4,
+    "purchase_amount": 170.0,
+    "rep": "R05",
+    "date": "2010-10-13"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 133,
+    "purchase_amount": 117.0,
+    "rep": "R02",
+    "date": "2010-09-14"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 65,
+    "purchase_amount": 150.0,
+    "rep": "R01",
+    "date": "2010-10-30"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 21,
+    "purchase_amount": 26.0,
+    "rep": "R05",
+    "date": "2010-10-27"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 108,
+    "purchase_amount": 130.0,
+    "rep": "R04",
+    "date": "2010-12-04"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 114,
+    "purchase_amount": 144.0,
+    "rep": "R05",
+    "date": "2010-11-19"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 56,
+    "purchase_amount": 160.0,
+    "rep": "R03",
+    "date": "2010-11-04"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 105,
+    "purchase_amount": 112.0,
+    "rep": "R04",
+    "date": "2010-09-15"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 93,
+    "purchase_amount": 185.0,
+    "rep": "R05",
+    "date": "2010-10-28"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 74,
+    "purchase_amount": 160.0,
+    "rep": "R05",
+    "date": "2010-10-29"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 96,
+    "purchase_amount": 215.0,
+    "rep": "R02",
+    "date": "2010-11-04"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 52,
+    "purchase_amount": 220.0,
+    "rep": "R02",
+    "date": "2010-09-27"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 83,
+    "purchase_amount": 126.0,
+    "rep": "R02",
+    "date": "2010-09-11"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 102,
+    "purchase_amount": 104.0,
+    "rep": "R02",
+    "date": "2010-11-02"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 2,
+    "purchase_amount": 62.0,
+    "rep": "R03",
+    "date": "2010-10-05"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 103,
+    "purchase_amount": 66.0,
+    "rep": "R04",
+    "date": "2010-11-23"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 110,
+    "purchase_amount": 132.0,
+    "rep": "R02",
+    "date": "2010-12-07"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 80,
+    "purchase_amount": 148.0,
+    "rep": "R05",
+    "date": "2010-10-09"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 89,
+    "purchase_amount": 88.0,
+    "rep": "R04",
+    "date": "2010-11-04"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 54,
+    "purchase_amount": 35.0,
+    "rep": "R02",
+    "date": "2010-10-21"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 146,
+    "purchase_amount": 220.0,
+    "rep": "R05",
+    "date": "2010-10-01"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 39,
+    "purchase_amount": 43.0,
+    "rep": "R05",
+    "date": "2010-11-26"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 31,
+    "purchase_amount": 88.0,
+    "rep": "R01",
+    "date": "2010-09-24"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 30,
+    "purchase_amount": 84.0,
+    "rep": "R03",
+    "date": "2010-10-04"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 54,
+    "purchase_amount": 145.0,
+    "rep": "R05",
+    "date": "2010-11-05"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 71,
+    "purchase_amount": 64.0,
+    "rep": "R03",
+    "date": "2010-10-16"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 53,
+    "purchase_amount": 37.0,
+    "rep": "R03",
+    "date": "2010-11-23"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 152,
+    "purchase_amount": 125.0,
+    "rep": "R02",
+    "date": "2010-11-24"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 84,
+    "purchase_amount": 66.0,
+    "rep": "R04",
+    "date": "2010-11-10"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 34,
+    "purchase_amount": 25.0,
+    "rep": "R01",
+    "date": "2010-11-15"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 158,
+    "purchase_amount": 148.0,
+    "rep": "R04",
+    "date": "2010-10-04"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 113,
+    "purchase_amount": 34.0,
+    "rep": "R02",
+    "date": "2010-10-11"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 104,
+    "purchase_amount": 41.0,
+    "rep": "R04",
+    "date": "2010-11-27"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 56,
+    "purchase_amount": 124.0,
+    "rep": "R02",
+    "date": "2010-11-01"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 88,
+    "purchase_amount": 220.0,
+    "rep": "R05",
+    "date": "2010-11-07"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 62,
+    "purchase_amount": 175.0,
+    "rep": "R03",
+    "date": "2010-12-01"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 56,
+    "purchase_amount": 205.0,
+    "rep": "R03",
+    "date": "2010-09-19"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 99,
+    "purchase_amount": 116.0,
+    "rep": "R03",
+    "date": "2010-11-15"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 17,
+    "purchase_amount": 210.0,
+    "rep": "R05",
+    "date": "2010-10-10"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 64,
+    "purchase_amount": 225.0,
+    "rep": "R03",
+    "date": "2010-09-16"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 107,
+    "purchase_amount": 23.0,
+    "rep": "R03",
+    "date": "2010-10-28"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 149,
+    "purchase_amount": 44.0,
+    "rep": "R02",
+    "date": "2010-09-12"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 124,
+    "purchase_amount": 215.0,
+    "rep": "R05",
+    "date": "2010-11-24"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 63,
+    "purchase_amount": 44.0,
+    "rep": "R02",
+    "date": "2010-11-22"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 91,
+    "purchase_amount": 110.0,
+    "rep": "R03",
+    "date": "2010-10-03"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 151,
+    "purchase_amount": 84.0,
+    "rep": "R01",
+    "date": "2010-10-21"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 165,
+    "purchase_amount": 66.0,
+    "rep": "R04",
+    "date": "2010-12-05"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 78,
+    "purchase_amount": 140.0,
+    "rep": "R01",
+    "date": "2010-11-17"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 95,
+    "purchase_amount": 140.0,
+    "rep": "R02",
+    "date": "2010-10-29"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 69,
+    "purchase_amount": 225.0,
+    "rep": "R03",
+    "date": "2010-10-26"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 50,
+    "purchase_amount": 180.0,
+    "rep": "R01",
+    "date": "2010-11-20"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 62,
+    "purchase_amount": 78.0,
+    "rep": "R02",
+    "date": "2010-12-03"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 112,
+    "purchase_amount": 200.0,
+    "rep": "R01",
+    "date": "2010-10-02"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 89,
+    "purchase_amount": 23.0,
+    "rep": "R05",
+    "date": "2010-09-22"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 26,
+    "purchase_amount": 74.0,
+    "rep": "R02",
+    "date": "2010-11-16"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 158,
+    "purchase_amount": 36.0,
+    "rep": "R03",
+    "date": "2010-09-19"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 82,
+    "purchase_amount": 172.0,
+    "rep": "R05",
+    "date": "2010-10-13"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 96,
+    "purchase_amount": 136.0,
+    "rep": "R01",
+    "date": "2010-09-25"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 138,
+    "purchase_amount": 105.0,
+    "rep": "R03",
+    "date": "2010-12-03"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 126,
+    "purchase_amount": 33.0,
+    "rep": "R04",
+    "date": "2010-09-19"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 79,
+    "purchase_amount": 115.0,
+    "rep": "R03",
+    "date": "2010-11-04"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 140,
+    "purchase_amount": 90.0,
+    "rep": "R01",
+    "date": "2010-10-13"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 133,
+    "purchase_amount": 45.0,
+    "rep": "R04",
+    "date": "2010-09-19"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 91,
+    "purchase_amount": 108.0,
+    "rep": "R01",
+    "date": "2010-10-19"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 146,
+    "purchase_amount": 115.0,
+    "rep": "R05",
+    "date": "2010-11-03"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 96,
+    "purchase_amount": 164.0,
+    "rep": "R03",
+    "date": "2010-10-03"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 89,
+    "purchase_amount": 88.0,
+    "rep": "R04",
+    "date": "2010-11-21"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 7,
+    "purchase_amount": 64.0,
+    "rep": "R05",
+    "date": "2010-11-26"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 123,
+    "purchase_amount": 64.0,
+    "rep": "R05",
+    "date": "2010-10-29"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 113,
+    "purchase_amount": 165.0,
+    "rep": "R05",
+    "date": "2010-11-23"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 114,
+    "purchase_amount": 40.0,
+    "rep": "R01",
+    "date": "2010-11-03"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 127,
+    "purchase_amount": 145.0,
+    "rep": "R03",
+    "date": "2010-11-13"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 164,
+    "purchase_amount": 100.0,
+    "rep": "R03",
+    "date": "2010-09-26"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 90,
+    "purchase_amount": 176.0,
+    "rep": "R02",
+    "date": "2010-09-11"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 140,
+    "purchase_amount": 105.0,
+    "rep": "R05",
+    "date": "2010-09-30"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 97,
+    "purchase_amount": 114.0,
+    "rep": "R05",
+    "date": "2010-11-25"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 81,
+    "purchase_amount": 28.0,
+    "rep": "R05",
+    "date": "2010-10-31"
+  },
+  {
+    "customer_id": "C0008",
+    "duration": 158,
+    "purchase_amount": 36.0,
+    "rep": "R05",
+    "date": "2010-12-04"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 149,
+    "purchase_amount": 42.0,
+    "rep": "R02",
+    "date": "2010-11-07"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 91,
+    "purchase_amount": 42.0,
+    "rep": "R03",
+    "date": "2010-11-21"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 40,
+    "purchase_amount": 111.0,
+    "rep": "R02",
+    "date": "2010-10-31"
+  },
+  {
+    "customer_id": "C0004",
+    "duration": 58,
+    "purchase_amount": 25.0,
+    "rep": "R01",
+    "date": "2010-12-03"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 127,
+    "purchase_amount": 215.0,
+    "rep": "R04",
+    "date": "2010-10-16"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 126,
+    "purchase_amount": 80.0,
+    "rep": "R01",
+    "date": "2010-11-02"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 94,
+    "purchase_amount": 78.0,
+    "rep": "R02",
+    "date": "2010-11-25"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 120,
+    "purchase_amount": 190.0,
+    "rep": "R01",
+    "date": "2010-09-20"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 103,
+    "purchase_amount": 72.0,
+    "rep": "R02",
+    "date": "2010-11-18"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 76,
+    "purchase_amount": 82.0,
+    "rep": "R02",
+    "date": "2010-11-12"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 133,
+    "purchase_amount": 96.0,
+    "rep": "R05",
+    "date": "2010-11-06"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 32,
+    "purchase_amount": 148.0,
+    "rep": "R04",
+    "date": "2010-10-15"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 84,
+    "purchase_amount": 180.0,
+    "rep": "R03",
+    "date": "2010-11-03"
+  },
+  {
+    "customer_id": "C0007",
+    "duration": 96,
+    "purchase_amount": 115.0,
+    "rep": "R04",
+    "date": "2010-09-11"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 102,
+    "purchase_amount": 72.0,
+    "rep": "R02",
+    "date": "2010-10-19"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 76,
+    "purchase_amount": 80.0,
+    "rep": "R01",
+    "date": "2010-12-04"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 63,
+    "purchase_amount": 82.0,
+    "rep": "R01",
+    "date": "2010-10-20"
+  },
+  {
+    "customer_id": "C0013",
+    "duration": 78,
+    "purchase_amount": 200.0,
+    "rep": "R04",
+    "date": "2010-11-07"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 110,
+    "purchase_amount": 72.0,
+    "rep": "R05",
+    "date": "2010-11-05"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 38,
+    "purchase_amount": 27.0,
+    "rep": "R04",
+    "date": "2010-10-14"
+  },
+  {
+    "customer_id": "C0005",
+    "duration": 45,
+    "purchase_amount": 84.0,
+    "rep": "R05",
+    "date": "2010-12-04"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 141,
+    "purchase_amount": 66.0,
+    "rep": "R05",
+    "date": "2010-11-20"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 124,
+    "purchase_amount": 64.0,
+    "rep": "R05",
+    "date": "2010-09-09"
+  },
+  {
+    "customer_id": "C0003",
+    "duration": 106,
+    "purchase_amount": 46.0,
+    "rep": "R04",
+    "date": "2010-11-25"
+  },
+  {
+    "customer_id": "C0014",
+    "duration": 51,
+    "purchase_amount": 64.0,
+    "rep": "R03",
+    "date": "2010-11-16"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 62,
+    "purchase_amount": 205.0,
+    "rep": "R05",
+    "date": "2010-10-23"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 25,
+    "purchase_amount": 93.0,
+    "rep": "R02",
+    "date": "2010-10-22"
+  },
+  {
+    "customer_id": "C0009",
+    "duration": 72,
+    "purchase_amount": 164.0,
+    "rep": "R05",
+    "date": "2010-09-30"
+  },
+  {
+    "customer_id": "C0001",
+    "duration": 151,
+    "purchase_amount": 117.0,
+    "rep": "R02",
+    "date": "2010-09-23"
+  },
+  {
+    "customer_id": "C0011",
+    "duration": 93,
+    "purchase_amount": 38.0,
+    "rep": "R04",
+    "date": "2010-12-07"
+  },
+  {
+    "customer_id": "C0010",
+    "duration": 147,
+    "purchase_amount": 76.0,
+    "rep": "R04",
+    "date": "2010-10-10"
+  },
+  {
+    "customer_id": "C0015",
+    "duration": 126,
+    "purchase_amount": 185.0,
+    "rep": "R04",
+    "date": "2010-09-20"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 46,
+    "purchase_amount": 135.0,
+    "rep": "R04",
+    "date": "2010-10-16"
+  },
+  {
+    "customer_id": "C0006",
+    "duration": 95,
+    "purchase_amount": 50.0,
+    "rep": "R04",
+    "date": "2010-10-18"
+  },
+  {
+    "customer_id": "C0002",
+    "duration": 86,
+    "purchase_amount": 205.0,
+    "rep": "R03",
+    "date": "2010-09-11"
+  },
+  {
+    "customer_id": "C0012",
+    "duration": 50,
+    "purchase_amount": 54.0,
+    "rep": "R03",
+    "date": "2010-09-23"
+  }
+]

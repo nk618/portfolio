@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Call Center Performance Dashboard — Naveen Kumar G</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #3b82f6;
+      --primary-dark: #1d4ed8;
+      --accent: #8b5cf6;
+      --bg-dark: #0f172a;
+      --bg-card: #1e293b;
+      --bg-card-hover: #334155;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --border: #334155;
+      --success: #10b981;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+      --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      min-height: 100vh;
+      line-height: 1.5;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.25rem 2rem;
+      background: rgba(30, 41, 59, 0.8);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--text-main);
+      text-decoration: none;
+    }
+
+    .brand-badge {
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      color: white;
+      padding: 0.25rem 0.6rem;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+
+    .nav-actions {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      color: white;
+      box-shadow: 0 4px 14px rgba(59, 130, 246, 0.4);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(59, 130, 246, 0.6);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--text-main);
+      border: 1px solid var(--border);
+    }
+
+    .btn-outline:hover {
+      background: var(--bg-card);
+      border-color: var(--primary);
+    }
+
+    /* Container */
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    /* Header Banner */
+    .header-banner {
+      background: linear-gradient(135deg, rgba(30, 41, 59, 0.9), rgba(15, 23, 42, 0.9)), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect fill="%231e293b" width="100" height="100"/><circle cx="50" cy="50" r="40" fill="none" stroke="%23334155" stroke-width="1"/></svg>');
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+    }
+
+    .banner-title {
+      font-size: 2rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #60a5fa, #c084fc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 0.5rem;
+    }
+
+    .banner-sub {
+      color: var(--text-muted);
+      font-size: 1rem;
+      max-width: 800px;
+    }
+
+    /* Slicers / Filters Bar */
+    .filter-bar {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      align-items: center;
+    }
+
+    .filter-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .filter-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      font-weight: 700;
+    }
+
+    .filter-select, .filter-input {
+      background: var(--bg-dark);
+      color: var(--text-main);
+      border: 1px solid var(--border);
+      padding: 0.55rem 1rem;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .filter-select:focus, .filter-input:focus {
+      border-color: var(--primary);
+    }
+
+    /* Key Metrics Grid */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 2rem;
+    }
+
+    .kpi-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.25rem 1.5rem;
+      transition: transform 0.2s, border-color 0.2s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .kpi-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: var(--primary);
+    }
+
+    .kpi-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--primary);
+    }
+
+    .kpi-card.purple::before { background: var(--accent); }
+    .kpi-card.green::before { background: var(--success); }
+    .kpi-card.amber::before { background: var(--warning); }
+    .kpi-card.rose::before { background: #f43f5e; }
+
+    .kpi-label {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+    }
+
+    .kpi-value {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: var(--text-main);
+    }
+
+    .kpi-sub {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 0.25rem;
+    }
+
+    /* Charts Grid */
+    .charts-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    @media (max-width: 1024px) {
+      .charts-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .chart-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: var(--shadow);
+    }
+
+    .chart-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.25rem;
+    }
+
+    .chart-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .chart-container {
+      position: relative;
+      height: 320px;
+      width: 100%;
+    }
+
+    /* Data Table Section */
+    .table-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+    }
+
+    .table-wrapper {
+      overflow-x: auto;
+      margin-top: 1rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.9rem;
+    }
+
+    th {
+      background: var(--bg-dark);
+      color: var(--text-muted);
+      font-weight: 600;
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--border);
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      letter-spacing: 0.05em;
+    }
+
+    td {
+      padding: 0.85rem 1rem;
+      border-bottom: 1px solid var(--border);
+      color: var(--text-main);
+    }
+
+    tr:hover td {
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+
+    .badge-rep {
+      background: rgba(59, 130, 246, 0.15);
+      color: #60a5fa;
+      border: 1px solid rgba(59, 130, 246, 0.3);
+    }
+
+    .pagination {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 1.25rem;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+
+    .pagination-btns {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    /* Excel Summary / Documentation */
+    .excel-info {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .excel-info h3 {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      color: var(--text-main);
+    }
+
+    .excel-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+
+    .excel-item {
+      background: var(--bg-dark);
+      padding: 1rem;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+    }
+
+    .excel-item-title {
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 0.35rem;
+      font-size: 0.95rem;
+    }
+
+    .excel-item-desc {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-brand">
+      <span class="brand-badge">EXCEL PROJECT</span>
+      Call Center Dashboard
+    </a>
+    <div class="nav-actions">
+      <a href="Call Center Dashboard.xlsx" class="btn btn-primary" download>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+        Download Excel (.xlsx)
+      </a>
+      <a href="index.html#projects" class="btn btn-outline">
+        ← Back to Portfolio
+      </a>
+    </div>
+  </nav>
+
+  <!-- Container -->
+  <div class="container">
+    
+    <!-- Banner -->
+    <div class="header-banner">
+      <h1 class="banner-title">Call Center Performance & Revenue Analytics</h1>
+      <p class="banner-sub">
+        An interactive dashboard built from 1,000 call records in <strong>Call Center Dashboard.xlsx</strong>. Analyzes customer sales, representative conversion, call duration distributions, and monthly revenue performance.
+      </p>
+    </div>
+
+    <!-- Slicers / Filters -->
+    <div class="filter-bar">
+      <div class="filter-group">
+        <label class="filter-label" for="repFilter">Representative Slicer</label>
+        <select id="repFilter" class="filter-select">
+          <option value="ALL">All Representatives (5)</option>
+          <option value="R01">R01</option>
+          <option value="R02">R02</option>
+          <option value="R03">R03</option>
+          <option value="R04">R04</option>
+          <option value="R05">R05</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label class="filter-label" for="monthFilter">Month Slicer</label>
+        <select id="monthFilter" class="filter-select">
+          <option value="ALL">All Months (Sep - Dec 2010)</option>
+          <option value="2010-09">September 2010</option>
+          <option value="2010-10">October 2010</option>
+          <option value="2010-11">November 2010</option>
+          <option value="2010-12">December 2010</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label class="filter-label" for="searchInput">Search Customer</label>
+        <input type="text" id="searchInput" class="filter-input" placeholder="e.g. C0005...">
+      </div>
+
+      <div class="filter-group" style="margin-left: auto;">
+        <button id="resetFilters" class="btn btn-outline" style="font-size: 0.8rem; padding: 0.4rem 0.8rem;">
+          Reset Filters
+        </button>
+      </div>
+    </div>
+
+    <!-- KPI Summary Cards -->
+    <div class="kpi-grid">
+      <div class="kpi-card green">
+        <div class="kpi-label">Total Revenue Generated</div>
+        <div class="kpi-value" id="kpiRevenue">$96,623</div>
+        <div class="kpi-sub">Sum of purchase amount</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Total Call Volume</div>
+        <div class="kpi-value" id="kpiCalls">1,000</div>
+        <div class="kpi-sub">Total inbound/outbound calls</div>
+      </div>
+      <div class="kpi-card purple">
+        <div class="kpi-label">Avg. Purchase per Call</div>
+        <div class="kpi-value" id="kpiAvgSale">$96.62</div>
+        <div class="kpi-sub">Revenue / Total Calls</div>
+      </div>
+      <div class="kpi-card amber">
+        <div class="kpi-label">Avg. Call Duration</div>
+        <div class="kpi-value" id="kpiAvgDuration">84.1 sec</div>
+        <div class="kpi-sub">~1 min 24 sec per call</div>
+      </div>
+      <div class="kpi-card rose">
+        <div class="kpi-label">Top Representative</div>
+        <div class="kpi-value" id="kpiTopRep">R03</div>
+        <div class="kpi-sub" id="kpiTopRepSub">$20,872 (21.6% share)</div>
+      </div>
+    </div>
+
+    <!-- Charts Grid -->
+    <div class="charts-grid">
+      
+      <!-- Chart 1: Rep Sales -->
+      <div class="chart-card">
+        <div class="chart-header">
+          <h3 class="chart-title">Sales by Representative ($)</h3>
+        </div>
+        <div class="chart-container">
+          <canvas id="repChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Chart 2: Top Customers -->
+      <div class="chart-card">
+        <div class="chart-header">
+          <h3 class="chart-title">Top 10 Customers by Sales ($)</h3>
+        </div>
+        <div class="chart-container">
+          <canvas id="customerChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Chart 3: Monthly Trend -->
+      <div class="chart-card">
+        <div class="chart-header">
+          <h3 class="chart-title">Monthly Revenue & Call Volume Trend</h3>
+        </div>
+        <div class="chart-container">
+          <canvas id="trendChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Chart 4: Call Duration Distribution -->
+      <div class="chart-card">
+        <div class="chart-header">
+          <h3 class="chart-title">Call Duration Distribution (Count of Calls)</h3>
+        </div>
+        <div class="chart-container">
+          <canvas id="durationChart"></canvas>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Raw Data Table -->
+    <div class="table-card">
+      <div class="chart-header">
+        <h3 class="chart-title">Call Records Data Explorer</h3>
+        <span id="tableCount" style="color: var(--text-muted); font-size: 0.85rem;">Showing 1,000 of 1,000 records</span>
+      </div>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Customer ID</th>
+              <th>Representative</th>
+              <th>Date of Call</th>
+              <th>Duration (sec)</th>
+              <th>Purchase Amount ($)</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody">
+            <!-- Rendered by JS -->
+          </tbody>
+        </table>
+      </div>
+      <div class="pagination">
+        <span id="pageInfo">Page 1 of 100</span>
+        <div class="pagination-btns">
+          <button id="prevBtn" class="btn btn-outline" style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">Previous</button>
+          <button id="nextBtn" class="btn btn-outline" style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">Next</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Excel Structure Documentation -->
+    <div class="excel-info">
+      <h3>Excel Workbook Architecture (`Call Center Dashboard.xlsx`)</h3>
+      <div class="excel-grid">
+        <div class="excel-item">
+          <div class="excel-item-title">Sheet: Dashboard</div>
+          <div class="excel-item-desc">Master visual layout featuring interactive Excel Slicers, KPI cards, and dynamic Pivot Charts summarizing performance across rep and customer metrics.</div>
+        </div>
+        <div class="excel-item">
+          <div class="excel-item-title">Sheet: Data</div>
+          <div class="excel-item-desc">Raw database table containing 1,000 cleansed call records with Customer ID, Duration, Purchase Amount, Representative, and Date fields.</div>
+        </div>
+        <div class="excel-item">
+          <div class="excel-item-title">Sheet: P1 (Top Customers)</div>
+          <div class="excel-item-desc">Pivot Table aggregating total sales per customer. Led by C0005 ($7,747) and C0004 ($7,689) out of 15 key enterprise accounts.</div>
+        </div>
+        <div class="excel-item">
+          <div class="excel-item-title">Sheet: P2 (Representative Perf.)</div>
+          <div class="excel-item-desc">Pivot Table analyzing sales revenue per sales representative. Representative R03 achieved top position with $20,872 (21.6% total).</div>
+        </div>
+        <div class="excel-item">
+          <div class="excel-item-title">Sheet: P3 (Monthly Trends)</div>
+          <div class="excel-item-desc">Pivot Table tracking monthly revenue and call volume evolution from September to December 2010. Peak month: October ($33,338, 334 calls).</div>
+        </div>
+        <div class="excel-item">
+          <div class="excel-item-title">Sheet: P4 (Call Duration Buckets)</div>
+          <div class="excel-item-desc">Pivot Table grouping call lengths into 30-second frequency intervals to identify agent efficiency and resolution speeds.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Naveen Kumar G — Call Center Data Analytics Project</p>
+  </footer>
+
+  <!-- Script -->
+  <script>
+    let rawData = [];
+    let filteredData = [];
+    let currentPage = 1;
+    const pageSize = 10;
+
+    // Charts instances
+    let repChart, customerChart, trendChart, durationChart;
+
+    // Fetch and initialize data
+    fetch('call_center_data.json')
+      .then(res => res.json())
+      .then(data => {
+        rawData = data;
+        filteredData = [...rawData];
+        initApp();
+      })
+      .catch(err => {
+        console.error("Failed to load JSON data:", err);
+      });
+
+    function initApp() {
+      setupEventListeners();
+      updateDashboard();
+    }
+
+    function setupEventListeners() {
+      document.getElementById('repFilter').addEventListener('change', updateDashboard);
+      document.getElementById('monthFilter').addEventListener('change', updateDashboard);
+      document.getElementById('searchInput').addEventListener('input', updateDashboard);
+
+      document.getElementById('resetFilters').addEventListener('click', () => {
+        document.getElementById('repFilter').value = 'ALL';
+        document.getElementById('monthFilter').value = 'ALL';
+        document.getElementById('searchInput').value = '';
+        updateDashboard();
+      });
+
+      document.getElementById('prevBtn').addEventListener('click', () => {
+        if (currentPage > 1) {
+          currentPage--;
+          renderTable();
+        }
+      });
+
+      document.getElementById('nextBtn').addEventListener('click', () => {
+        const totalPages = Math.ceil(filteredData.length / pageSize);
+        if (currentPage < totalPages) {
+          currentPage++;
+          renderTable();
+        }
+      });
+    }
+
+    function updateDashboard() {
+      const selectedRep = document.getElementById('repFilter').value;
+      const selectedMonth = document.getElementById('monthFilter').value;
+      const searchVal = document.getElementById('searchInput').value.trim().toLowerCase();
+
+      filteredData = rawData.filter(item => {
+        const matchRep = (selectedRep === 'ALL' || item.rep === selectedRep);
+        const matchMonth = (selectedMonth === 'ALL' || item.date.startsWith(selectedMonth));
+        const matchSearch = (!searchVal || item.customer_id.toLowerCase().includes(searchVal) || item.rep.toLowerCase().includes(searchVal));
+        return matchRep && matchMonth && matchSearch;
+      });
+
+      currentPage = 1;
+      renderKPIs();
+      renderCharts();
+      renderTable();
+    }
+
+    function renderKPIs() {
+      const totalRev = filteredData.reduce((acc, cur) => acc + cur.purchase_amount, 0);
+      const totalCalls = filteredData.length;
+      const avgSale = totalCalls > 0 ? (totalRev / totalCalls) : 0;
+      const totalDur = filteredData.reduce((acc, cur) => acc + cur.duration, 0);
+      const avgDur = totalCalls > 0 ? (totalDur / totalCalls) : 0;
+
+      // Find top rep in filtered data
+      const repMap = {};
+      filteredData.forEach(d => {
+        repMap[d.rep] = (repMap[d.rep] || 0) + d.purchase_amount;
+      });
+      let topRep = 'N/A';
+      let topRepVal = 0;
+      Object.entries(repMap).forEach(([rep, val]) => {
+        if (val > topRepVal) {
+          topRepVal = val;
+          topRep = rep;
+        }
+      });
+
+      document.getElementById('kpiRevenue').innerText = '$' + totalRev.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
+      document.getElementById('kpiCalls').innerText = totalCalls.toLocaleString();
+      document.getElementById('kpiAvgSale').innerText = '$' + avgSale.toFixed(2);
+      document.getElementById('kpiAvgDuration').innerText = avgDur.toFixed(1) + ' sec';
+      document.getElementById('kpiTopRep').innerText = topRep;
+      
+      const share = totalRev > 0 ? ((topRepVal / totalRev) * 100).toFixed(1) : 0;
+      document.getElementById('kpiTopRepSub').innerText = `$${topRepVal.toLocaleString()} (${share}% share)`;
+    }
+
+    function renderCharts() {
+      // 1. Rep Sales Chart
+      const repMap = {};
+      filteredData.forEach(d => {
+        repMap[d.rep] = (repMap[d.rep] || 0) + d.purchase_amount;
+      });
+      const repLabels = Object.keys(repMap).sort();
+      const repValues = repLabels.map(r => repMap[r]);
+
+      if (repChart) repChart.destroy();
+      repChart = new Chart(document.getElementById('repChart'), {
+        type: 'bar',
+        data: {
+          labels: repLabels,
+          datasets: [{
+            label: 'Sales Revenue ($)',
+            data: repValues,
+            backgroundColor: ['#3b82f6', '#8b5cf6', '#10b981', '#f59e0b', '#ec4899'],
+            borderRadius: 6
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            y: { grid: { color: '#334155' }, ticks: { color: '#94a3b8' } },
+            x: { grid: { display: false }, ticks: { color: '#94a3b8' } }
+          }
+        }
+      });
+
+      // 2. Customer Chart (Top 10)
+      const custMap = {};
+      filteredData.forEach(d => {
+        custMap[d.customer_id] = (custMap[d.customer_id] || 0) + d.purchase_amount;
+      });
+      const sortedCust = Object.entries(custMap).sort((a, b) => b[1] - a[1]).slice(0, 10);
+      const custLabels = sortedCust.map(c => c[0]);
+      const custValues = sortedCust.map(c => c[1]);
+
+      if (customerChart) customerChart.destroy();
+      customerChart = new Chart(document.getElementById('customerChart'), {
+        type: 'bar',
+        data: {
+          labels: custLabels,
+          datasets: [{
+            label: 'Total Purchases ($)',
+            data: custValues,
+            backgroundColor: '#8b5cf6',
+            borderRadius: 6
+          }]
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { color: '#334155' }, ticks: { color: '#94a3b8' } },
+            y: { grid: { display: false }, ticks: { color: '#94a3b8' } }
+          }
+        }
+      });
+
+      // 3. Trend Chart
+      const monthSalesMap = {};
+      const monthCallsMap = {};
+      filteredData.forEach(d => {
+        const m = d.date.substring(0, 7);
+        monthSalesMap[m] = (monthSalesMap[m] || 0) + d.purchase_amount;
+        monthCallsMap[m] = (monthCallsMap[m] || 0) + 1;
+      });
+      const monthNames = { '2010-09': 'Sep 2010', '2010-10': 'Oct 2010', '2010-11': 'Nov 2010', '2010-12': 'Dec 2010' };
+      const monthKeys = Object.keys(monthNames).filter(k => monthSalesMap[k] !== undefined);
+      const monthLabels = monthKeys.map(k => monthNames[k]);
+      const monthSales = monthKeys.map(k => monthSalesMap[k]);
+      const monthCalls = monthKeys.map(k => monthCallsMap[k]);
+
+      if (trendChart) trendChart.destroy();
+      trendChart = new Chart(document.getElementById('trendChart'), {
+        type: 'line',
+        data: {
+          labels: monthLabels,
+          datasets: [
+            {
+              label: 'Revenue ($)',
+              data: monthSales,
+              borderColor: '#3b82f6',
+              backgroundColor: 'rgba(59, 130, 246, 0.2)',
+              fill: true,
+              tension: 0.3,
+              yAxisID: 'y'
+            },
+            {
+              label: 'Call Count',
+              data: monthCalls,
+              borderColor: '#f59e0b',
+              borderDash: [5, 5],
+              fill: false,
+              tension: 0.3,
+              yAxisID: 'y1'
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { labels: { color: '#f8fafc' } } },
+          scales: {
+            y: {
+              type: 'linear',
+              position: 'left',
+              grid: { color: '#334155' },
+              ticks: { color: '#60a5fa' }
+            },
+            y1: {
+              type: 'linear',
+              position: 'right',
+              grid: { display: false },
+              ticks: { color: '#f59e0b' }
+            },
+            x: { grid: { display: false }, ticks: { color: '#94a3b8' } }
+          }
+        }
+      });
+
+      // 4. Duration Distribution Chart
+      const buckets = { '0-29s': 0, '30-59s': 0, '60-89s': 0, '90-119s': 0, '120-149s': 0, '150-180s': 0 };
+      filteredData.forEach(d => {
+        const dur = d.duration;
+        if (dur < 30) buckets['0-29s']++;
+        else if (dur < 60) buckets['30-59s']++;
+        else if (dur < 90) buckets['60-89s']++;
+        else if (dur < 120) buckets['90-119s']++;
+        else if (dur < 150) buckets['120-149s']++;
+        else buckets['150-180s']++;
+      });
+
+      if (durationChart) durationChart.destroy();
+      durationChart = new Chart(document.getElementById('durationChart'), {
+        type: 'doughnut',
+        data: {
+          labels: Object.keys(buckets),
+          datasets: [{
+            data: Object.values(buckets),
+            backgroundColor: ['#38bdf8', '#3b82f6', '#6366f1', '#8b5cf6', '#a855f7', '#ec4899'],
+            borderWidth: 2,
+            borderColor: '#1e293b'
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: 'right', labels: { color: '#f8fafc' } }
+          }
+        }
+      });
+    }
+
+    function renderTable() {
+      const tbody = document.getElementById('tableBody');
+      const tableCount = document.getElementById('tableCount');
+      const pageInfo = document.getElementById('pageInfo');
+
+      const totalRecords = filteredData.length;
+      const totalPages = Math.max(1, Math.ceil(totalRecords / pageSize));
+      if (currentPage > totalPages) currentPage = totalPages;
+
+      const startIndex = (currentPage - 1) * pageSize;
+      const endIndex = Math.min(startIndex + pageSize, totalRecords);
+      const pageData = filteredData.slice(startIndex, endIndex);
+
+      tableCount.innerText = `Showing ${filteredData.length.toLocaleString()} of ${rawData.length.toLocaleString()} records`;
+      pageInfo.innerText = `Page ${currentPage} of ${totalPages}`;
+
+      tbody.innerHTML = pageData.map(item => `
+        <tr>
+          <td><strong>${item.customer_id}</strong></td>
+          <td><span class="badge badge-rep">${item.rep}</span></td>
+          <td>${item.date}</td>
+          <td>${item.duration} sec</td>
+          <td style="color: var(--success); font-weight: 600;">$${item.purchase_amount.toFixed(2)}</td>
+        </tr>
+      `).join('');
+
+      document.getElementById('prevBtn').disabled = (currentPage === 1);
+      document.getElementById('nextBtn').disabled = (currentPage === totalPages);
+    }
+  </script>
+</body>
+</html>
