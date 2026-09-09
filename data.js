@@ -139,7 +139,7 @@ const portfolioData = {
       description: "Interactive Power BI dashboard analyzing ₹260.46M+ revenue, profit margins, product categories, regional top cities, and customer segment trends using DAX & custom data models.",
       tags: ["Power BI", "DAX", "Data Analytics", "KPI Dashboard", "Data Modeling"],
       githubLink: "https://github.com/nk618/portfolio/tree/main/bi%20project",
-      downloadLink: "bi project/E-Commerce Sales & Customer Intelligence Analytics.pbix",
+      downloadLink: "bi%20project/E-Commerce%20Sales%20%26%20Customer%20Intelligence%20Analytics.pbix",
       image: "assets/powerbi_dashboard.png"
     },
     {
@@ -155,7 +155,7 @@ const portfolioData = {
       description: "Comprehensive Excel analytics dashboard evaluating 1,000+ call records, representative performance, customer sales distribution, call duration analysis, and monthly revenue trends.",
       tags: ["MS Excel", "Pivot Tables", "Data Analytics", "KPI Dashboard"],
       githubLink: "https://github.com/nk618/portfolio/blob/main/Call%20Center%20Dashboard.xlsx",
-      downloadLink: "Call Center Dashboard.xlsx",
+      downloadLink: "Call%20Center%20Dashboard.xlsx",
       demoLink: "",
       image: "assets/project2.png"
     },
