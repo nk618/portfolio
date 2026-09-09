@@ -1,0 +1,81 @@
+Product_ID,Product_Name,Category,Sub_Category,List_Price,Unit_Cost
+P2000,Laptops Product 1,Technology,Laptops,13340.82,10836.58
+P2001,Tables Product 2,Furniture,Tables,61893.98,38740.54
+P2002,Accessories Product 3,Technology,Accessories,76083.83,45638.81
+P2003,Chairs Product 4,Furniture,Chairs,72789.1,60628.14
+P2004,Stationery Product 5,Office Supplies,Stationery,22154.95,19379.22
+P2005,Tables Product 6,Furniture,Tables,18627.38,11555.02
+P2006,Laptops Product 7,Technology,Laptops,57279.45,42140.92
+P2007,Storage Product 8,Furniture,Storage,77465.02,47348.43
+P2008,Paper Product 9,Office Supplies,Paper,12546.55,8779.06
+P2009,Storage Product 10,Furniture,Storage,50209.76,29789.99
+P2010,Phones Product 11,Technology,Phones,49447.03,40193.38
+P2011,Tables Product 12,Furniture,Tables,47986.68,36009.74
+P2012,Laptops Product 13,Technology,Laptops,16281.82,11596.34
+P2013,Phones Product 14,Technology,Phones,26276.26,19570.22
+P2014,Chairs Product 15,Furniture,Chairs,12221.58,8595.65
+P2015,Tables Product 16,Furniture,Tables,38551.13,28836.5
+P2016,Laptops Product 17,Technology,Laptops,60637.62,52413.59
+P2017,Stationery Product 18,Office Supplies,Stationery,38596.4,22564.5
+P2018,Laptops Product 19,Technology,Laptops,45801.09,25468.21
+P2019,Chairs Product 20,Furniture,Chairs,44904.0,24841.99
+P2020,Phones Product 21,Technology,Phones,42879.1,36071.45
+P2021,Laptops Product 22,Technology,Laptops,6562.71,4469.1
+P2022,Accessories Product 23,Technology,Accessories,16308.47,12700.29
+P2023,Binders Product 24,Office Supplies,Binders,13648.36,7977.57
+P2024,Storage Product 25,Furniture,Storage,71728.84,53529.53
+P2025,Storage Product 26,Furniture,Storage,43441.32,34057.56
+P2026,Binders Product 27,Office Supplies,Binders,50136.78,40537.07
+P2027,Storage Product 28,Furniture,Storage,6685.15,5650.89
+P2028,Tables Product 29,Furniture,Tables,62771.45,44486.02
+P2029,Phones Product 30,Technology,Phones,35257.0,27824.57
+P2030,Chairs Product 31,Furniture,Chairs,38498.53,28996.9
+P2031,Phones Product 32,Technology,Phones,27150.59,16564.55
+P2032,Stationery Product 33,Office Supplies,Stationery,3779.83,2280.57
+P2033,Accessories Product 34,Technology,Accessories,18507.84,16264.51
+P2034,Stationery Product 35,Office Supplies,Stationery,6797.66,4643.32
+P2035,Phones Product 36,Technology,Phones,2743.0,1741.9
+P2036,Tables Product 37,Furniture,Tables,76874.21,52831.76
+P2037,Paper Product 38,Office Supplies,Paper,27871.02,18741.67
+P2038,Binders Product 39,Office Supplies,Binders,69402.41,51424.61
+P2039,Chairs Product 40,Furniture,Chairs,31822.56,23868.26
+P2040,Tables Product 41,Furniture,Tables,52504.24,46067.43
+P2041,Laptops Product 42,Technology,Laptops,17089.78,12912.68
+P2042,Storage Product 43,Furniture,Storage,19092.63,15390.19
+P2043,Tables Product 44,Furniture,Tables,14620.74,9187.52
+P2044,Stationery Product 45,Office Supplies,Stationery,33218.58,19028.06
+P2045,Tables Product 46,Furniture,Tables,69698.77,48576.61
+P2046,Chairs Product 47,Furniture,Chairs,53110.92,30880.61
+P2047,Chairs Product 48,Furniture,Chairs,77562.16,49266.25
+P2048,Storage Product 49,Furniture,Storage,47196.49,35282.94
+P2049,Accessories Product 50,Technology,Accessories,36467.03,22897.52
+P2050,Phones Product 51,Technology,Phones,26671.88,18619.55
+P2051,Chairs Product 52,Furniture,Chairs,34641.74,21896.2
+P2052,Chairs Product 53,Furniture,Chairs,20426.46,13656.17
+P2053,Accessories Product 54,Technology,Accessories,58991.24,45367.54
+P2054,Chairs Product 55,Furniture,Chairs,56519.23,39410.95
+P2055,Binders Product 56,Office Supplies,Binders,16705.54,9805.04
+P2056,Phones Product 57,Technology,Phones,10100.77,6325.84
+P2057,Laptops Product 58,Technology,Laptops,10032.16,7014.74
+P2058,Paper Product 59,Office Supplies,Paper,8533.72,6340.06
+P2059,Chairs Product 60,Furniture,Chairs,38547.8,29927.33
+P2060,Laptops Product 61,Technology,Laptops,51237.86,42856.01
+P2061,Storage Product 62,Furniture,Storage,41881.88,27770.86
+P2062,Storage Product 63,Furniture,Storage,2688.9,1752.13
+P2063,Binders Product 64,Office Supplies,Binders,58712.04,35437.77
+P2064,Accessories Product 65,Technology,Accessories,53906.39,37542.43
+P2065,Binders Product 66,Office Supplies,Binders,20647.93,15864.6
+P2066,Stationery Product 67,Office Supplies,Stationery,54754.87,39098.68
+P2067,Storage Product 68,Furniture,Storage,45777.6,25636.72
+P2068,Binders Product 69,Office Supplies,Binders,73518.62,55006.72
+P2069,Binders Product 70,Office Supplies,Binders,31690.99,24240.66
+P2070,Phones Product 71,Technology,Phones,79953.27,45246.36
+P2071,Paper Product 72,Office Supplies,Paper,79468.95,63440.16
+P2072,Accessories Product 73,Technology,Accessories,59154.4,49684.38
+P2073,Tables Product 74,Furniture,Tables,74076.28,51453.16
+P2074,Paper Product 75,Office Supplies,Paper,63885.75,44320.26
+P2075,Binders Product 76,Office Supplies,Binders,43695.78,24115.72
+P2076,Phones Product 77,Technology,Phones,31874.96,24846.67
+P2077,Laptops Product 78,Technology,Laptops,47839.89,34926.79
+P2078,Tables Product 79,Furniture,Tables,6133.72,4595.0
+P2079,Tables Product 80,Furniture,Tables,60819.74,43495.05

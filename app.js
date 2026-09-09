@@ -73,11 +73,12 @@ document.addEventListener('DOMContentLoaded', () => {
       <p class="hero-tagline">${data.personal.tagline}</p>
 
       <div class="hero-buttons">
-        <a href="${data.personal.resumeLink || '#'}" class="btn-primary" target="_blank" rel="noopener noreferrer">
+        ${data.personal.resumeLink ? `
+        <a href="${data.personal.resumeLink}" class="btn-primary" target="_blank" rel="noopener noreferrer">
           ${getLucideIcon('download', 18)} Download Resume
-        </a>
+        </a>` : ''}
         ${data.personal.interactiveResume ? `
-        <a href="${data.personal.interactiveResume}" class="btn-secondary" target="_blank" rel="noopener noreferrer">
+        <a href="${data.personal.interactiveResume}" class="${data.personal.resumeLink ? 'btn-secondary' : 'btn-primary'}" target="_blank" rel="noopener noreferrer">
           ${getLucideIcon('external-link', 18)} Interactive Resume
         </a>` : ''}
         <a href="#contact" class="btn-secondary">
@@ -179,6 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="project-links">
             ${project.githubLink ? `<a href="${project.githubLink}" target="_blank" rel="noopener noreferrer" class="project-link">${getLucideIcon('github', 16)} View Code</a>` : ''}
             ${project.demoLink ? `<a href="${project.demoLink}" target="_blank" rel="noopener noreferrer" class="project-link">${getLucideIcon('external-link', 16)} Live Demo</a>` : ''}
+            ${project.downloadLink ? `<a href="${project.downloadLink}" download target="_blank" rel="noopener noreferrer" class="project-link">${getLucideIcon('download', 16)} Download File</a>` : ''}
           </div>
         </div>
       </div>

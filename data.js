@@ -14,7 +14,7 @@ const portfolioData = {
     phone: "+91 7871876756",
     linkedin: "https://linkedin.com/in/naveen-kumar-g",
     github: "https://github.com/nk618",
-    resumeLink: "Naveen_Kumar_G_Resume_new.pdf",
+    resumeLink: "",
     interactiveResume: "Naveen_Kumar_G_Interactive_Resume.html",
   },
 
@@ -131,9 +131,17 @@ const portfolioData = {
 
   // ============================================================
   // ADD YOUR REAL PROJECTS HERE — duplicate this object for each new project
-  // Each project object has: title, description, tags, githubLink, demoLink, image
+  // Each project object has: title, description, tags, githubLink, demoLink, downloadLink, image
   // ============================================================
   projects: [
+    {
+      title: "E-Commerce Sales & Customer Intelligence Analytics",
+      description: "Interactive Power BI dashboard analyzing ₹260.46M+ revenue, profit margins, product categories, regional top cities, and customer segment trends using DAX & custom data models.",
+      tags: ["Power BI", "DAX", "Data Analytics", "KPI Dashboard", "Data Modeling"],
+      githubLink: "https://github.com/nk618/portfolio/tree/main/bi%20project",
+      downloadLink: "bi project/E-Commerce Sales & Customer Intelligence Analytics.pbix",
+      image: "assets/powerbi_dashboard.png"
+    },
     {
       title: "World Happiness Report Dashboard (2015-2019)",
       description: "Interactive data visualization dashboard analyzing global happiness metrics, country rankings, financial/health factors, and trend correlations across 5 years.",
@@ -145,8 +153,9 @@ const portfolioData = {
     {
       title: "Call Center Performance Dashboard",
       description: "Comprehensive Excel analytics dashboard evaluating 1,000+ call records, representative performance, customer sales distribution, call duration analysis, and monthly revenue trends.",
-      tags: ["MS Excel", "Pivot Tables", "Data Analytics", "KPI Dashboard", "Chart.js"],
+      tags: ["MS Excel", "Pivot Tables", "Data Analytics", "KPI Dashboard"],
       githubLink: "https://github.com/nk618/portfolio/blob/main/Call%20Center%20Dashboard.xlsx",
+      downloadLink: "Call Center Dashboard.xlsx",
       demoLink: "",
       image: "assets/project2.png"
     },
