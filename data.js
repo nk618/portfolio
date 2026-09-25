@@ -14,7 +14,7 @@ const portfolioData = {
     phone: "+91 7871876756",
     linkedin: "https://linkedin.com/in/naveen-kumar-g",
     github: "https://github.com/nk618",
-    resumeLink: "",
+    resumeLink: "Naveen_Kumar%20CV.pdf",
     interactiveResume: "Naveen_Kumar_G_Interactive_Resume.html",
   },
 
@@ -131,16 +131,24 @@ const portfolioData = {
 
   // ============================================================
   // ADD YOUR REAL PROJECTS HERE — duplicate this object for each new project
-  // Each project object has: title, description, tags, githubLink, demoLink, downloadLink, image
+  // Each project object has: title, description, tags, githubLink, demoLink, image
   // ============================================================
   projects: [
     {
-      title: "E-Commerce Sales & Customer Intelligence Analytics",
-      description: "Interactive Power BI dashboard analyzing ₹260.46M+ revenue, profit margins, product categories, regional top cities, and customer segment trends using DAX & custom data models.",
-      tags: ["Power BI", "DAX", "Data Analytics", "KPI Dashboard", "Data Modeling"],
+      title: "HR Attrition Analysis Dashboard",
+      description: "Power BI analytics dashboard evaluating IBM employee attrition rates (16.12%), turnover drivers across departments, education fields, age trends, and compensation metrics for 1,470 employees.",
+      tags: ["Power BI", "DAX", "Data Analysis", "HR Analytics", "Excel"],
       githubLink: "https://github.com/nk618/portfolio/tree/main/bi%20project",
-      downloadLink: "bi%20project/E-Commerce%20Sales%20%26%20Customer%20Intelligence%20Analytics.pbix",
-      image: "assets/powerbi_dashboard.png"
+      demoLink: "bi project/HR Attrition Analysis Dashboard.pdf",
+      image: "bi project/bi project 2.png"
+    },
+    {
+      title: "E-Commerce Sales & Customer Intelligence Analytics",
+      description: "Power BI analytics dashboard tracking ₹260.46M revenue, ₹50.56M profit (19.4% margin), 3K orders across 495 customers, regional performance across top cities, and category revenue trends.",
+      tags: ["Power BI", "DAX", "Data Modeling", "Sales Analytics", "SQL"],
+      githubLink: "https://github.com/nk618/portfolio/tree/main/bi%20project",
+      demoLink: "bi project/Bi project 1.png",
+      image: "bi project/Bi project 1.png"
     },
     {
       title: "World Happiness Report Dashboard (2015-2019)",
@@ -151,11 +159,10 @@ const portfolioData = {
       image: "assets/project1.png"
     },
     {
-      title: "Call Center Performance Dashboard",
-      description: "Comprehensive Excel analytics dashboard evaluating 1,000+ call records, representative performance, customer sales distribution, call duration analysis, and monthly revenue trends.",
-      tags: ["MS Excel", "Pivot Tables", "Data Analytics", "KPI Dashboard"],
-      githubLink: "https://github.com/nk618/portfolio/blob/main/Call%20Center%20Dashboard.xlsx",
-      downloadLink: "Call%20Center%20Dashboard.xlsx",
+      title: "Call Center Dashboard",
+      description: "Interactive Excel dashboard analyzing regional sales trends, revenue KPIs, and performance metrics to support data-driven business strategy.",
+      tags: ["Excel"],
+      githubLink: "#",
       demoLink: "",
       image: "assets/project2.png"
     },
